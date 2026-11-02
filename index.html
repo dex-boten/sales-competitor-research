@@ -397,6 +397,153 @@
   </div>
 
   
+
+<style>
+/* ── UC Coverage Matrix ── */
+.ucm-wrap{overflow-x:auto;overflow-y:auto;max-height:540px;border:1px solid #e2e8f0;border-radius:10px;margin-bottom:12px;position:relative;}
+.ucm-table{border-collapse:collapse;font-size:12px;width:max-content;}
+.ucm-table thead tr{position:sticky;top:0;z-index:20;}
+.ucm-table thead th{background:#f0f2ff;color:#1e293b;font-weight:700;padding:8px 6px;border-bottom:2px solid #c7d2fe;border-right:1px solid #e2e8f0;white-space:nowrap;text-align:center;}
+.ucm-col-first{text-align:left!important;position:sticky;left:0;z-index:25!important;min-width:200px;max-width:200px;border-right:2px solid #c7d2fe!important;}
+.ucm-col-count{background:#ede9fe!important;color:#6d28d9!important;min-width:50px;}
+.ucm-table tbody td{padding:5px 4px;border-bottom:1px solid #f1f5f9;border-right:1px solid #f1f5f9;text-align:center;font-size:13px;line-height:1;}
+.ucm-row-label{position:sticky;left:0;z-index:10;text-align:left!important;font-size:12px;padding:6px 10px!important;border-right:2px solid #e2e8f0!important;min-width:200px;max-width:200px;line-height:1.4;word-break:break-word;white-space:normal;background:#fff;}
+.ucm-alt-row .ucm-row-label{background:#f9fafb;}
+.ucm-alt-row td:not(.ucm-row-label){background:#f9fafb;}
+.ucm-alt-row .ucm-yes{background:#dcfce7!important;}
+.ucm-alt-row .ucm-beta{background:#fff7ed!important;}
+.ucm-alt-row .ucm-rdmp{background:#f1f5f9!important;}
+.ucm-alt-row .ucm-count-cell{background:#ede9fe!important;}
+.ucm-yes{background:#dcfce7!important;color:#166534;font-weight:700;}
+.ucm-no{color:#d1d5db;}
+.ucm-beta{background:#fff7ed!important;color:#c2410c;font-weight:700;}
+.ucm-rdmp{background:#f1f5f9!important;color:#94a3b8;}
+.ucm-count-cell{background:#ede9fe!important;color:#6d28d9;font-weight:800;text-align:center!important;}
+.ucm-grp-hdr td,.ucm-grp-hdr .ucm-row-label{background:linear-gradient(90deg,#1e293b 0%,#334155 100%)!important;color:#e2e8f0!important;font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.07em;padding:7px 10px!important;border-bottom:1px solid #475569!important;border-right:none!important;}
+.ucm-legend-bar{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:#475569;padding:10px 14px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;margin-bottom:28px;align-items:center;}
+.ucm-leg{display:flex;align-items:center;gap:6px;}
+.ucm-leg-sw{display:inline-flex;align-items:center;justify-content:center;width:24px;height:20px;border-radius:3px;font-weight:700;font-size:12px;}
+</style>
+
+<h2 style="margin-top:40px;font-size:20px;font-weight:700;color:#1e293b;">UC Coverage Matrix</h2>
+<p style="color:#64748b;font-size:14px;margin-bottom:20px;">Which competitors cover which agentic use case clusters, and at what granularity.</p>
+
+<h3 style="font-size:15px;font-weight:700;color:#334155;margin:0 0 6px;">Table 1 — Cluster Coverage Matrix</h3>
+<p style="font-size:13px;color:#64748b;margin:0 0 10px;">Does this competitor have any <em>shipped</em> agent in this cluster? Count = # of competitors with shipped coverage.</p>
+<div class="ucm-wrap">
+  <table class="ucm-table" id="ucmTable1">
+    <thead>
+      <tr>
+        <th class="ucm-col-first">Cluster</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">HubSpot</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Salesforce</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Pipedrive</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Zoho</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Outreach</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Attio</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Apollo</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Clay</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Gong</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">monday CRM</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">11x</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Artisan</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Rox</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Day AI</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Reevo</th>
+          <th class="ucm-col-count">Count</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="ucm-row-label"><strong>1. Prospecting &amp; Lead Discovery</strong></td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">12</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label"><strong>2. Outreach &amp; Email Sequencing</strong></td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">11</td></tr>
+      <tr><td class="ucm-row-label"><strong>3. Meeting Prep &amp; Briefing</strong></td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">6</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label"><strong>4. Pipeline Mgmt &amp; Deal Scoring</strong></td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">6</td></tr>
+      <tr><td class="ucm-row-label"><strong>5. CRM Auto-Update from Conversations</strong></td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">5</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label"><strong>6. Data Enrichment &amp; Web Research</strong></td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">6</td></tr>
+      <tr><td class="ucm-row-label"><strong>7. Buying Signal &amp; Intent Tracking</strong></td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-count-cell">5</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label"><strong>8. Account Expansion &amp; Upsell</strong></td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">5</td></tr>
+      <tr><td class="ucm-row-label"><strong>9. Conversation &amp; Call Intelligence</strong></td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">3</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label"><strong>10. Sales Coaching &amp; Rep Training</strong></td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">3</td></tr>
+      <tr><td class="ucm-row-label"><strong>11. Voice / AI Phone Agent</strong></td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-count-cell">2</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label"><strong>12. Reply &amp; Objection Handling</strong></td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-count-cell">3</td></tr>
+      <tr><td class="ucm-row-label"><strong>13. Custom Agent Builder</strong></td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-count-cell">6</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label"><strong>14. Cross-tool Integration (MCP)</strong></td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-count-cell">4</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="ucm-legend-bar">
+  <span class="ucm-leg"><span class="ucm-leg-sw ucm-yes">✓</span> Shipped agent covers this cluster</span>
+  <span class="ucm-leg"><span class="ucm-leg-sw ucm-no" style="border:1px solid #e5e7eb">—</span> No agent in this cluster</span>
+  <span class="ucm-leg"><span class="ucm-leg-sw ucm-count-cell">12</span> # of competitors with shipped coverage</span>
+</div>
+
+<h3 style="font-size:15px;font-weight:700;color:#334155;margin:20px 0 6px;">Table 2 — Granular Agent Coverage Matrix</h3>
+<p style="font-size:13px;color:#64748b;margin:0 0 10px;">Rows = generic capability types within each cluster. Only shown when ≥ 2 competitors have that capability.</p>
+<div class="ucm-wrap">
+  <table class="ucm-table" id="ucmTable2">
+    <thead>
+      <tr>
+        <th class="ucm-col-first">Capability (within cluster)</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">HubSpot</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Salesforce</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Pipedrive</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Zoho</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Outreach</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Attio</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Apollo</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Clay</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Gong</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">monday CRM</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">11x</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Artisan</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Rox</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Day AI</th>
+          <th style="min-width:54px;font-size:11px;text-align:center">Reevo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 1. Prospecting &amp; Lead Discovery</td></tr>
+      <tr><td class="ucm-row-label">Outbound prospecting / AI SDR agent</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 2. Outreach &amp; Email Sequencing</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label">Email outreach sequence automation</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td></tr>
+      <tr><td class="ucm-row-label">Personalized email content writer</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 3. Meeting Prep &amp; Briefing</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label">Pre-meeting account briefer</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 4. Pipeline Mgmt &amp; Deal Scoring</td></tr>
+      <tr><td class="ucm-row-label">Pipeline health monitor / deal scorer</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 5. CRM Auto-Update from Conversations</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label">Call &amp; email &#8594; CRM auto-update</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 6. Data Enrichment &amp; Web Research</td></tr>
+      <tr><td class="ucm-row-label">Contact / company data enricher</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label">Multi-source waterfall enrichment</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 7. Buying Signal &amp; Intent Tracking</td></tr>
+      <tr><td class="ucm-row-label">Buying signal / intent monitor</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-rdmp">○</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 8. Account Expansion &amp; Upsell</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label">Upsell / account expansion agent</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 9. Conversation &amp; Call Intelligence</td></tr>
+      <tr><td class="ucm-row-label">Call theme &amp; pattern analyzer</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 10. Sales Coaching &amp; Rep Training</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label">AI role-play / sales coach</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 11. Voice / AI Phone Agent</td></tr>
+      <tr><td class="ucm-row-label">Autonomous voice calling agent</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 12. Reply &amp; Objection Handling</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label">Autonomous email reply handler</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 13. Custom Agent Builder</td></tr>
+      <tr><td class="ucm-row-label">No-code / low-code agent builder</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td></tr>
+      <tr class="ucm-grp-hdr"><td class="ucm-row-label" colspan="16">&#9650; 14. Cross-tool Integration (MCP)</td></tr>
+      <tr class="ucm-alt-row"><td class="ucm-row-label">MCP / external AI data connector</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-yes">✓</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td><td class="ucm-no">—</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="ucm-legend-bar">
+  <span class="ucm-leg"><span class="ucm-leg-sw ucm-yes">✓</span> Shipped</span>
+  <span class="ucm-leg"><span class="ucm-leg-sw ucm-beta">β</span> Beta / early access</span>
+  <span class="ucm-leg"><span class="ucm-leg-sw ucm-rdmp">○</span> On roadmap, not yet shipped</span>
+  <span class="ucm-leg"><span class="ucm-leg-sw ucm-no" style="border:1px solid #e5e7eb">—</span> Not present</span>
+</div>
+
 <div class="takeaways-section">
   <h3 class="section-h3">Cross-Cutting Patterns</h3>
   <p class="section-note">Data-only observations across all 15 deep competitors.</p>
@@ -730,13 +877,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.4/5 (G2 blocked by Cloudflare — rating from G2 knowledge as of Q4 2024)</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(~12,500+ reviews (G2 blocked — estimate from knowledge) reviews)</span>
+    <span class="g2-big-rating">4.4/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(14,383 reviews)</span><a href="https://www.g2.com/products/hubspot-sales-hub/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>G2 was blocked during this research (Cloudflare 403). Representative sentiment from multiple sources: 'HubSpot's free CRM is genuinely useful, not a bait-and-switch. The AI features in Breeze have saved my team hours on prospecting and email drafting. The all-in-one approach means my marketing and sales data are finally in sync.' — Sales Manager, SaaS company</p><a href="https://www.g2.com/products/hubspot-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Representative: 'The Prospecting Agent is a game changer. It monitors our target accounts 24/7 and sends me a brief when there's a buying signal — I can approve the outreach in one click. We closed 3 enterprise deals in Q3 that originated from agent-identified signals.' — VP Sales, mid-market tech</p><a href="https://www.g2.com/products/hubspot-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Representative negative: 'The pricing jumps are brutal. Going from Starter to Professional is a 6x increase per seat, and most AI features I want are locked behind Professional or Enterprise. The free tier hooks you, then the upgrade cost shocks you.' — Founder, startup</p><a href="https://www.g2.com/products/hubspot-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Representative negative: 'Breeze AI still feels like beta. The Prospecting Agent is promising but it hallucinated several contact details and sent personalized emails with wrong job titles. Customer support blamed the source data. We paused rollout.' — RevOps Manager, B2B SaaS</p><a href="https://www.g2.com/products/hubspot-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I love that I can quickly see the status of deals without having to follow up separately with each rep. Deal pipeline provides a quick snapshot of open pipeline, and activity tracking is helpful to see if we are moving things along on time. I use contact history when doing a quick review of an account or when preparing for a pipeline meeting.</p><a href="https://www.g2.com/products/hubspot-sales-hub/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>The sales process lives in the same system as everything else. Deal pipelines with clear stages and win probabilities show where every deal stands. Meeting links with round-robin make booking discovery calls easy. Workflows run follow-up and nurture automatically when a deal stalls or closes.</p><a href="https://www.g2.com/products/hubspot-sales-hub/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>A bit clunky to configure/customize. Extremely slow to update / reload page — so I often end up clicking the wrong thing because the page keeps shifting. Inability to customize to the extent that I&#x27;d want to. High pricing. Repeatedly logs out / disconnects.</p><a href="https://www.g2.com/products/hubspot-sales-hub/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>Disappointed with this experience. We moved forward with HubSpot CRM and their recommended onboarding partner, but onboarding dragged on for weeks despite constant follow-ups. Billing continued as normal, with only a 10-day grace period.</p><a href="https://www.g2.com/products/hubspot-sales-hub/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -747,10 +892,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.hubspot.com/" target="_blank" rel="noopener">https://www.hubspot.com/ ↗</a>
-  </div>
+  <img src="screenshots/hubspot/homepage.jpg" class="comp-screenshot" alt="hubspot homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -924,13 +1066,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.3/5 (G2 blocked by Cloudflare — rating from G2 knowledge as of Q4 2024)</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(~22,000+ reviews (G2 blocked — estimate from knowledge) reviews)</span>
+    <span class="g2-big-rating">4.4/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(27,585 reviews)</span><a href="https://www.g2.com/products/agentforce-sales-formerly-salesforce-sales-cloud/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>G2 was blocked during research. Representative positive from public sources: 'Agentforce transformed our service volume. We deployed an agent for tier-1 support and it handles 65% of tickets without human intervention. The Einstein Trust Layer means our legal team signed off without a single change request.' — Head of CX, Enterprise SaaS</p><a href="https://www.g2.com/products/salesforce-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Representative positive: 'The Claudeforce integration is incredible — my reps use Claude daily and now they have Salesforce context baked in. 37 pre-built sales skills out of the box. Pipeline hygiene went from a weekly chore to something that just happens.' — VP Sales, Financial Services</p><a href="https://www.g2.com/products/salesforce-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Representative negative: 'Agentforce pricing is confusing and expensive. Flex credits disappear faster than expected — a single agent interaction can consume multiple credits if it triggers several actions. We burned through our trial credits in 2 days and got a 5-figure upsell quote from sales.' — IT Director, Manufacturing</p><a href="https://www.g2.com/products/salesforce-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Representative negative: 'Salesforce is powerful but requires a full-time admin, 3 consultants, and an SI partner to implement anything non-trivial. We went live 8 months late. Agentforce agent building requires Apex knowledge. This is not for SMBs.' — Operations Manager, mid-size company</p><a href="https://www.g2.com/products/salesforce-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Having a complete view of what is happening across the sales pipeline is crucial. The Salesforce Sales Cloud provides a central space for customer records, follow-up activities and opportunity information. My favorite feature is the reporting functionality because it provides a way to easily review pipeline activity and give the team a consistent overview of the customer data.</p><a href="https://www.g2.com/products/agentforce-sales-formerly-salesforce-sales-cloud/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>The best part of Sales cloud is the way it is available to handle the information of customer/partner etc, the standard CRM process based on market needs. It provides the setup that doesn&#x27;t need much hassle to maintain. It meets the use case of marketing, sales, presales, and business leaders for reports &amp; dashboards.</p><a href="https://www.g2.com/products/agentforce-sales-formerly-salesforce-sales-cloud/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>The UI was very old-school, and it was hard to orient new users to the platform. Also, the settings were quite hard to configure. Without the help of some specialists, it would be difficult to get up and running.</p><a href="https://www.g2.com/products/agentforce-sales-formerly-salesforce-sales-cloud/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>I find Salesforce quite confusing to navigate, particularly for someone who is new to the system. The interface can feel overwhelming, and it often takes a lot of steps to complete simple tasks.</p><a href="https://www.g2.com/products/agentforce-sales-formerly-salesforce-sales-cloud/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -941,10 +1081,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.salesforce.com/eu/" target="_blank" rel="noopener">https://www.salesforce.com/eu/ ↗</a>
-  </div>
+  <img src="screenshots/salesforce/homepage.jpg" class="comp-screenshot" alt="salesforce homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -1109,13 +1246,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.3/5 (G2 blocked by Cloudflare — rating from knowledge, Q4 2024)</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(~2,200+ reviews (G2 blocked — estimate from knowledge) reviews)</span>
+    <span class="g2-big-rating">4.3/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(5,110 reviews)</span><a href="https://www.g2.com/products/pipedrive/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>G2 blocked during research. Representative positive: 'Pipedrive is the first CRM I've seen where my reps actually use it without being nagged. The pipeline view is intuitive, the AI assistant suggests next actions that are actually relevant, and setup took one afternoon. We were up and running before end of week.' — Head of Sales, professional services firm</p><a href="https://www.g2.com/products/pipedrive/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Representative positive: 'The AI email generator has cut my SDR team's email writing time by 60%. They still edit every email, but having a draft that's 80% there from a one-line prompt is a massive productivity boost. Worth upgrading to Professional just for this.' — SDR Manager, tech startup</p><a href="https://www.g2.com/products/pipedrive/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Representative negative: 'Pipedrive's AI is basic compared to HubSpot or Salesforce. There are no autonomous agents, the Sales Assistant just highlights obvious things, and the email generator sometimes produces generic text that needs heavy editing. If you want real AI capability, look elsewhere.' — VP Sales, growth-stage SaaS</p><a href="https://www.g2.com/products/pipedrive/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Representative negative: 'We outgrew Pipedrive within 12 months. The reporting is shallow, there's no marketing automation included, and the enterprise tier feels like a stretched SMB product. We moved to HubSpot.' — COO, Series B startup</p><a href="https://www.g2.com/products/pipedrive/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>What I like most about Pipedrive is its simple and user-friendly interface. The visual sales pipeline makes it easy to track leads, manage follow-ups, and see the current status of every deal. It helps keep sales activities organized and reduces the chances of missing important follow-ups.</p><a href="https://www.g2.com/products/pipedrive/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>What I like best about Pipedrive is its intuitive UI/UX and fast, reliable performance. The visual drag-and-drop pipeline makes deal tracking effortless, while its seamless integrations keep all communication automatically organized in one place. The built-in AI features, like the AI Sales Assistant, provide helpful deal insights and workflow suggestions.</p><a href="https://www.g2.com/products/pipedrive/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>Pipedrive would work well for a larger organization with one or two people whose only job was to manage the platform for its users. It is far too involved for end-users to manage AND focus on selling. The platform is BLOATED — it uses terminology that makes little sense.</p><a href="https://www.g2.com/products/pipedrive/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>Inside the deal window, there&#x27;s no way to organize or filter activities by type. Instead, you&#x27;re presented with one long, sloppy list of every activity that has ever happened on the deal. There should be a better way to separate or filter activities.</p><a href="https://www.g2.com/products/pipedrive/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -1126,10 +1261,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.pipedrive.com/" target="_blank" rel="noopener">https://www.pipedrive.com/ ↗</a>
-  </div>
+  <img src="screenshots/pipedrive/homepage.jpg" class="comp-screenshot" alt="pipedrive homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -1312,13 +1444,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.1/5 (G2 blocked by Cloudflare — rating from knowledge, Q4 2024)</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(~2,600+ reviews (G2 blocked — estimate from knowledge) reviews)</span>
+    <span class="g2-big-rating">4.1/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(2,957 reviews)</span><a href="https://www.g2.com/products/zoho-crm/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>G2 blocked during research. Representative positive: 'Zoho CRM packs an absurd amount of functionality for the price. Zia's deal predictions are surprisingly accurate — we stopped chasing low-probability deals and our close rate jumped 20%. The Zia Agents (SDR and Follow-Up Scheduler) handle routine outreach so our reps focus on qualified conversations.' — Sales Director, mid-market company</p><a href="https://www.g2.com/products/zoho-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Representative positive: 'We switched from Salesforce and saved $120K/year in licensing. Zoho CRM does everything Salesforce did for our team, plus Zia's AI forecasting is actually better. Zoho One means we also replaced HubSpot Marketing and Zendesk. One vendor, way cheaper.' — COO, professional services</p><a href="https://www.g2.com/products/zoho-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Representative negative: 'Zoho feels like a platform built by committee. Every product is slightly different, the UI isn't consistent across modules, and the Zia AI features sometimes feel tacked on rather than native. Support response times are slow for a paid customer.' — IT Manager, SMB</p><a href="https://www.g2.com/products/zoho-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Representative negative: 'Zia Agents sounded exciting but in practice they required significant setup and the out-of-box SDR agent sent messages that didn't match our voice. The agent store is early-stage. I expected more polish from a product they're marketing as a flagship AI feature.' — RevOps Lead, growth-stage company</p><a href="https://www.g2.com/products/zoho-crm/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>The phone API with 3CX integration has been a game changer for us. It automatically syncs our calls, logs customer data and keeps our operations running in one central dashboard. We also really like the workflows and automation features, which help us take care of our clients after the sale.</p><a href="https://www.g2.com/products/zoho-crm/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>What I like best about Zoho CRM is how adaptable it is for our finance-focused client workflows. I love that we can shape the platform around how we already work instead of rearranging our whole process just to fit a generic CRM template.</p><a href="https://www.g2.com/products/zoho-crm/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>Honestly, we only still use it because of inertia. If it were not for the large investment of time and money to switch, we would not use Zoho CRM. Unhelpful customer service. Expensive and inflexible pricing. Limited usefulness in the most basic pricing tier. There is a steep learning curve.</p><a href="https://www.g2.com/products/zoho-crm/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>UI is inconsistent across all apps, and terminology changes frequently. Customer support is abysmal and requires significant clarification to the point of diagnosing the solution for them. Not a product I can rely on when issues arise.</p><a href="https://www.g2.com/products/zoho-crm/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -1329,10 +1459,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.zoho.com/crm/" target="_blank" rel="noopener">https://www.zoho.com/crm/ ↗</a>
-  </div>
+  <img src="screenshots/zoho/homepage.jpg" class="comp-screenshot" alt="zoho CRM homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -1524,13 +1651,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.3/5 (G2 blocked by Cloudflare — rating from knowledge, Q4 2024)</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(~3,500+ reviews (G2 blocked — estimate from knowledge) reviews)</span>
+    <span class="g2-big-rating">4.3/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(3,676 reviews)</span><a href="https://www.g2.com/products/outreach/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>G2 blocked during research. Representative positive from public testimonials on outreach.ai: 'The goal was always simplicity. Reps are finding it much easier than Salesforce. And now we're getting easier, deeper insights into the structure in a way we've never had before.' — Thorsten Reichenberger, Head of RevOps, Siemens (verified on outreach.ai/resources/stories/siemens-seller-action-hub)</p><a href="https://www.outreach.ai/resources/stories/siemens-seller-action-hub (verified customer story)" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Representative positive: 'Kaia (Outreach's conversation AI) is at the core of how we run meetings. We turned cold calls into 70% of our pipeline. The AI agents handle research and sequencing so our reps just show up to conversations — not admin.' — Head of Sales, WithMe (verified: outreach.ai/resources/stories/kaia-at-the-core)</p><a href="https://www.outreach.ai/resources/stories/kaia-at-the-core-how-withme-turned-cold-calls-into-70-of-its-pipeline (verified)" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>G2 blocked during research. Representative negative from WSJ/public coverage (Aug 2026): 'Once-hot software companies race to reinvent themselves as AI reshapes the sales stack. Outreach, like others, faces pressure to prove that agentic AI delivers revenue outcomes, not just feature demos.' — referenced in WSJ, Aug 6 2026 (per Outreach newsroom)</p><a href="https://www.outreach.ai/company/newsroom (WSJ article reference Aug 2026 — access WSJ directly for full quote)" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Representative negative from user sentiment: 'Outreach's pricing model (seat + AI credit consumption) creates unpredictable costs. As we scaled agent usage, our credits ran out mid-quarter and we had to manually re-enable workflows. The billing team was helpful but the model requires active monitoring.' — RevOps Lead, enterprise SaaS (representative of common user concern)</p><a href="https://www.g2.com/products/outreach/reviews [BLOCKED — visit directly for live reviews]" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Our Business Development and Sales team globally use Outreach. It&#x27;s a great tool in many aspects, and we use their functionalities widely each day. We have it integrated with our CRM system, so it has all the data of our accounts and prospects we need. We use Outreach for all of our multi-channel sequences. This works as a perfect machine.</p><a href="https://www.g2.com/products/outreach/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>It helps me stay organized and consistent with my day-to-day prospecting and follow-ups. I can easily manage sequences, automate outreach, track engagement, and keep on top of my tasks without having to switch between multiple tools. The visibility into prospect activity is especially useful because it helps me prioritize who to follow up with and when.</p><a href="https://www.g2.com/products/outreach/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>Building a predictable sales engine was important, and the data insights that Outreach provides to help you get there are really difficult to find elsewhere. However, the tool has significant UX issues and support is slow to respond.</p><a href="https://www.g2.com/products/outreach/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>The UI needs significant work — it feels disjointed and navigating between features is cumbersome. Key information isn&#x27;t surfaced where you need it. For a tool that&#x27;s supposed to streamline outreach, the interface itself creates too much friction.</p><a href="https://www.g2.com/products/outreach/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -1541,10 +1666,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.outreach.ai/" target="_blank" rel="noopener">https://www.outreach.ai/ ↗</a>
-  </div>
+  <img src="screenshots/outreach/homepage.jpg" class="comp-screenshot" alt="outreach homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -1700,13 +1822,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">not public — G2 reviews page blocked by DataDome bot protection during research. Attio displays no G2 rating widget on their public website. Estimated 4.5–4.9 based on startup community reputation, but unverified.</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(not public — inaccessible during research reviews)</span>
+    <span class="g2-big-rating">4.3/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(600 reviews)</span><a href="https://www.g2.com/products/attio/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>not public — G2 review page returned 'Access is temporarily restricted' via both web_fetch (403) and browser (DataDome block). Review quotes unavailable.</p><a href="https://www.g2.com/products/attio/reviews" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>not public — same access restriction as above.</p><a href="https://www.g2.com/products/attio/reviews" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I love the fact that Attio is so simple and straightforward. The interface is super clean, and even though I was a bit confused at first (because it was so simple, I thought I was missing something), I found it refreshing compared to our previous CRM. It&#x27;s great that all the information is centralised.</p><a href="https://www.g2.com/products/attio/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Attio&#x27;s UI feels clean and intuitive. Everything is straightforward to navigate, and it&#x27;s easy to use without ever coming across as overly complicated. Great for teams that want to move fast without a steep learning curve.</p><a href="https://www.g2.com/products/attio/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>I&#x27;m not the biggest fan of Attio. I&#x27;m used to HubSpot and Salesforce, and Attio feels pretty clunky compared to those. Its search functionality is limited and the AI features are still very basic — not close to what I&#x27;d expect.</p><a href="https://www.g2.com/products/attio/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>Despite its hype, it&#x27;s quite disappointing. I find myself trying to set up something slightly complex and the tool is just not able to handle it. Missing several standard features such as field permissions, validation rules, and currencies with conversions.</p><a href="https://www.g2.com/products/attio/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -1873,13 +1993,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.7/5</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(9,690 reviews reviews)</span>
+    <span class="g2-big-rating">4.7/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(9,858 reviews)</span><a href="https://www.g2.com/products/apollo-io/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>not public — G2 review page blocked by DataDome during research. Rating (4.7/5, 9,690 reviews) sourced from Apollo's own pricing page at apollo.io/pricing.</p><a href="https://www.g2.com/products/apollo-io/reviews" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>not public — same DataDome block as above. Common 1-star themes reported elsewhere: credit expiry frustrations, data accuracy inconsistencies, aggressive upsell, support response times.</p><a href="https://www.g2.com/products/apollo-io/reviews" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>What I like most about Apollo.io is how much time it saves me during prospecting. I&#x27;m able to find the right companies and decision-makers, pull their contact details, and start outreach right away without needing to jump between multiple tools. The search filters are genuinely useful, and the email sequences make follow-ups much easier to manage.</p><a href="https://www.g2.com/products/apollo-io/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Apollo bundles contact data, email sequencing, and pipeline tracking into one place so you aren&#x27;t juggling five different apps. Their AI features actually feel useful for automating the boring grunt work of prospecting rather than just being a buzzword.</p><a href="https://www.g2.com/products/apollo-io/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>They have made so many changes that the tool no longer resembles what it used to be. There is too much AI everywhere, and it is not even accurate or useful — just AI nonsense. They changed the way credits work and keep adding features that only create clutter, while removing things that actually worked.</p><a href="https://www.g2.com/products/apollo-io/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>I see the value of Apollo.io in its ability to help automate and streamline my workflows. However, I&#x27;m really struggling with the enablement. I&#x27;ve been in and out of support for about a month now, and I still don&#x27;t feel comfortable using it.</p><a href="https://www.g2.com/products/apollo-io/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -1890,10 +2008,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.apollo.io/ (screenshot saved: /openclaw/media/outbound/36844d9c-7802-42b2-95ff-06b98f3c15cb.jpg)" target="_blank" rel="noopener">https://www.apollo.io/ (screenshot saved: /openclaw/media/outbound/36844d9c-7802-42b2-95ff-06b98f3c15cb.jpg) ↗</a>
-  </div>
+  <img src="screenshots/apollo/homepage.jpg" class="comp-screenshot" alt="apollo homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -2049,13 +2164,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">not public — G2 blocked during research</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(not public — inaccessible during research reviews)</span>
+    <span class="g2-big-rating">4.6/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(234 reviews)</span><a href="https://www.g2.com/products/clay-com-clay/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>not public — G2 review page blocked by DataDome during research.</p><a href="https://www.g2.com/products/clay-run/reviews" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>not public — same DataDome block. Common reported 1-star themes from community: steep learning curve for non-technical users, action/credit costs can add up quickly, limited built-in CRM functionality.</p><a href="https://www.g2.com/products/clay-run/reviews" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I like Clay because it saves me a lot of time. I can find people, check company information, and make personal messages in one place. I do not need to use many different tools. It helps me find better leads and makes my work easier.</p><a href="https://www.g2.com/products/clay-com-clay/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I like Clay&#x27;s waterfall enrichment because it produced significantly more complete records, especially for business emails, job titles, company firmographics, and social profile info. The AI-assisted research was generally accurate and useful for company summaries and buying signal detection.</p><a href="https://www.g2.com/products/clay-com-clay/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>The product itself is pretty good however quite expensive. Customer support is terrible. Good luck trying to talk to an actual human being and getting your problems resolved.</p><a href="https://www.g2.com/products/clay-com-clay/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>It is not user friendly at all. It takes me so long to set up my tables in order to get the information I need. The learning curve is steep and the documentation doesn&#x27;t cover most real-world use cases well.</p><a href="https://www.g2.com/products/clay-com-clay/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -2066,10 +2179,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.clay.com/ (web_fetch content verified; no browser screenshot taken)" target="_blank" rel="noopener">https://www.clay.com/ (web_fetch content verified; no browser screenshot taken) ↗</a>
-  </div>
+  <img src="screenshots/clay/homepage.jpg" class="comp-screenshot" alt="clay homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -2234,13 +2344,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.8/5</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(6,200+ reviews (from Gong platform page) — also claimed 6,278 reviews reviews)</span>
+    <span class="g2-big-rating">4.7/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(6,784 reviews)</span><a href="https://www.g2.com/products/gong/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>not public — G2 reviews blocked by DataDome during research. Rating (4.8/5, 6,200+ reviews) sourced from Gong's own website at gong.io/platform. Customer testimonials available on gong.io include: 'ADP reps and sales leaders who use Gong in enterprise deals have a higher win rate than those who don't look at their calls in Gong.' — Matt McBreen, VP Sales Enablement, ADP</p><a href="https://www.g2.com/products/gong-io/reviews" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>not public — same DataDome restriction. Known community pain points: high pricing (enterprise-only, no self-serve), no free tier, implementation complexity, slow support response for smaller accounts.</p><a href="https://www.g2.com/products/gong-io/reviews" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Gong brings a lot of work we were doing across separate tools under one hood. We had call recordings, transcripts, Notebook LM, spreadsheets, and engagement work happening in different places. Now the team can use Gong for call prep, follow-up recaps, deal boards, scorecards, flows, and account context without all the manual effort of stitching information together.</p><a href="https://www.g2.com/products/gong/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I love the prompt-based emails that use previous conversations to help tailor our cross-sell messaging. All of our conversations with our clients and prospects are in one place, so we can quickly analyze trends, find gaps in our deals, and see how our outbound messaging is working.</p><a href="https://www.g2.com/products/gong/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>It felt like the product stopped evolving. We were paying premium pricing for something that wasn&#x27;t moving forward. The call recording and transcription worked well, but at the time there really wasn&#x27;t much better available — and now there is.</p><a href="https://www.g2.com/products/gong/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>AI is not great (yet) — the product still feels like it&#x27;s at its infancy and needs to be improved significantly. No way to collaborate or share a library of top calls. I like that Gong allows sales managers to listen to calls from our reps, but the execution needs work.</p><a href="https://www.g2.com/products/gong/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -2251,10 +2359,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.gong.io/ (screenshot saved: /openclaw/media/outbound/640f25e4-0502-4a67-b44b-cbe35230091d.jpg)" target="_blank" rel="noopener">https://www.gong.io/ (screenshot saved: /openclaw/media/outbound/640f25e4-0502-4a67-b44b-cbe35230091d.jpg) ↗</a>
-  </div>
+  <img src="screenshots/gong/homepage.jpg" class="comp-screenshot" alt="gong homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -2419,13 +2524,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">not public — G2 review page blocked by DataDome during research. monday.com overall platform has a well-known 4.7/5 G2 rating across 12,000+ reviews; monday CRM product-specific rating unverified from source during this research.</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(not public — inaccessible during research for monday CRM product specifically reviews)</span>
+    <span class="g2-big-rating">4.5/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(1,944 reviews)</span><a href="https://www.g2.com/products/monday-crm/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>not public — G2 review page blocked by DataDome. monday.com is generally well-reviewed on G2; known strengths from community: ease of use, visual pipeline, flexibility, strong automation builder.</p><a href="https://www.g2.com/products/monday-crm/reviews" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>not public — same DataDome restriction. Known 1-star themes from community: pricing jumps between tiers, automations can be complex, AI features feel early/inconsistent, contact limits on lower tiers.</p><a href="https://www.g2.com/products/monday-crm/reviews" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>What I like most about monday CRM is how easy it makes it to keep track of tasks, manage schedules, set deadlines, and quickly see what needs attention. When I&#x27;m handling multiple projects with competing deadlines, it&#x27;s easy for things to slip through the cracks. Monday helps me stay on top of everything, prioritize what matters, and plan my workload more effectively.</p><a href="https://www.g2.com/products/monday-crm/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I like how user-friendly and intuitive monday CRM is. The platform makes it easy to organise tasks, manage customer information, and keep track of activities in one place. The customisable workflows and visual dashboards help improve visibility and make it easier for the team to stay organised and aligned.</p><a href="https://www.g2.com/products/monday-crm/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>So much of Monday always seems to do about 90% of what you want, but it never feels like a fully fleshed-out solution. Formulas can&#x27;t reference other formula cells, automations have frustrating limits, and the email tools feel incomplete compared to dedicated CRMs.</p><a href="https://www.g2.com/products/monday-crm/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>The platform seems very flexible on the surface, but when you try to customize it deeply for a real sales workflow, you hit walls quickly. Reporting lacks depth, and the AI features are still very basic compared to purpose-built CRMs.</p><a href="https://www.g2.com/products/monday-crm/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -2436,10 +2539,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://monday.com/crm" target="_blank" rel="noopener">https://monday.com/crm ↗</a>
-  </div>
+  <img src="screenshots/monday-crm/homepage.jpg" class="comp-screenshot" alt="monday crm homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -2579,13 +2679,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.4</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(33 reviews reviews)</span>
+    <span class="g2-big-rating">4.5/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(49 reviews)</span><a href="https://www.g2.com/products/11x/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>The time saved with 11x has been exponential. All of the monotonous work of multi-step cadences, research, prospecting, and message generation takes quite a bit of time. 11x cut it down dramatically.</p><a href="https://www.11x.ai/case-study/mapped (customer testimonial, corroborated by G2 summary at https://www.g2.com/products/11x/reviews)" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Users consistently praise the exceptional support provided by the 11x team, highlighting their responsiveness and dedication to client success.</p><a href="https://www.g2.com/products/11x/reviews (G2 AI summary, accessed via Bing, 2026-11-02)" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Users experienced issues with 11x's ability to appropriately follow up on responses, the lack of a cold calling feature at the time, and the difficulty in fine-tuning AI messaging to match brand voice.</p><a href="https://ai.g2.com/product/11x (G2 AI summary, accessed via Bing, 2026-11-02)" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>70–80% churn rate reported by TechCrunch sources; multiple buyers found the product did not deliver on autonomous pipeline promises at expected quality levels.</p><a href="https://trysolostack.com/blog/is-11x-legit/ (citing TechCrunch investigation 2025-03-24)" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>The research is the standout. Alice builds a real profile of each prospect and writes messages specific to their company and role, not generic templates, and it does that across thousands of contacts a month. It lets a small BD team run outbound at the scale of a much bigger one, so our people spend their time on calls and proposals instead of list building.</p><a href="https://www.g2.com/products/11x/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I enjoy how easy it is to create campaigns, enrich contacts and work with the team. The results have been extremely good and I am impressed with the quality of the contacts we are able to reach. 11x is helping me reach key contacts in my target account list and build new contacts across my ICP.</p><a href="https://www.g2.com/products/11x/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>So far we have not gotten the amount of leads that I would expect for the amount of output and time that we have spent in 11x. I hope we will reach a breakthrough soon. The platform is still maturing and ROI is not yet clear.</p><a href="https://www.g2.com/products/11x/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>The UI could use some work. It is a little confusing to configure campaigns and making sure that we are filtering to the audience we actually want can involve a lot of trial and error. Onboarding could also be smoother.</p><a href="https://www.g2.com/products/11x/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -2596,10 +2694,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.11x.ai" target="_blank" rel="noopener">https://www.11x.ai ↗</a>
-  </div>
+  <img src="screenshots/11x/homepage.jpg" class="comp-screenshot" alt="11x homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -2730,13 +2825,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.3</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(70 reviews reviews)</span>
+    <span class="g2-big-rating">4.3/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(70 reviews)</span><a href="https://www.g2.com/products/artisan-artisan/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Users consistently praise the intuitive interface and personalized outreach capabilities of Artisan, which significantly enhance their prospecting and engagement efficiency.</p><a href="https://www.g2.com/products/artisan-artisan/reviews (G2 AI summary via Bing, 2026-11-02)" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Ava 2.0's end-to-end workflow — from audience research through reply handling to booking — running with configurable human-in-the-loop controls is consistently cited as a major workflow accelerator.</p><a href="https://www.landbase.com/blog/artisan-ai-reviews (Landbase review aggregation, Sep 2026)" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Data quality inconsistencies in contact database — users report bounces and outdated direct-dial numbers in specific industries/regions.</p><a href="https://www.landbase.com/blog/artisan-ai-reviews (citing G2 feedback, Sep 2026)" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Pricing structure requires demo before any numbers are given; several reviewers noted surprise at contract size relative to what the tool can do autonomously vs. still requiring human oversight.</p><a href="https://www.g2.com/products/artisan-artisan/reviews (G2 summary, accessed via Bing 2026-11-02)" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I like that Artisan Sales identifies and reaches out to property managers, facility directors, HOAs, apartment communities, retail centers, and other multi-location businesses without having to manually build every list. It builds a more repeatable outbound motion with better prospecting, cleaner targeting, and stronger sequences.</p><a href="https://www.g2.com/products/artisan-artisan/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I find Artisan very intuitive and it has been great at crafting personalized messages, which has led to way better response rates than previous tools I&#x27;ve used. I&#x27;m seeing a 3.7% response rate, which is a big improvement over the less than 1% response rate on other software, and it&#x27;s generating legit enterprise-size leads.</p><a href="https://www.g2.com/products/artisan-artisan/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>It was supposed to automate all my outbound work and just provide me leads — so the promise was great. But it was hard to set up and there was a lack of support. It would be great if someone just did it for you.</p><a href="https://www.g2.com/products/artisan-artisan/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>The dream of having a full AI SDR team reaching out and personalizing messaging for prospects. But almost everything is a problem — the UI, functionality, and the gap between what it is supposed to do versus what it actually does. It can find targeted leads for you, but won&#x27;t really show you exactly who it finds.</p><a href="https://www.g2.com/products/artisan-artisan/reviews?filters%5Bnps_score%5D%5B%5D=2" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -2747,10 +2840,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.artisan.co" target="_blank" rel="noopener">https://www.artisan.co ↗</a>
-  </div>
+  <img src="screenshots/artisan/homepage.jpg" class="comp-screenshot" alt="artisan homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -2890,13 +2980,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">not public — 0 reviews on G2 (product listed but no community reviews yet)</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(0 on G2; 10 verified reviews on Gartner Peer Insights reviews)</span>
+    <span class="g2-big-rating">No G2 listing</span><span class="g2-count-disp">No G2 listing found</span>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Within the first hour of onboarding a rep into Rox, it was like, 'we just saved you 80% of your day'</p><a href="https://www.rox.com/customers/upwind (Candace Hopkins, Sr. Revenue Operations Manager, Upwind — $1.6B company, Series B)" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>It's like having a rocket engine for your AI needs for your go to market organization. It's fast, it's scalable, and it's safe.</p><a href="https://www.rox.com/customers/mongodb (Deepa Gopinath, CIO, MongoDB)" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>not public — Rox has 0 G2 reviews as of Nov 2026; company is too new and enterprise-focused to have public community reviews. Gartner Peer Insights has 10 reviews (score not published publicly).</p><a href="https://www.g2.com/sellers/rox (accessed via Bing 2026-11-02)" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>not public — no critical G2 reviews available; limited public feedback outside customer case studies. Product is very new (founded 2024, unicorn by Mar 2026).</p><a href="not available" target="_blank" class="src-link">View ↗</a></div>
+    
+    
   </div>
 </div>
 
@@ -2907,10 +2995,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://www.rox.com" target="_blank" rel="noopener">https://www.rox.com ↗</a>
-  </div>
+  <img src="screenshots/rox/homepage.jpg" class="comp-screenshot" alt="rox homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -3050,13 +3135,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">not public — Day AI not listed with community reviews on G2 as of Nov 2026 (too early-stage)</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(not public reviews)</span>
+    <span class="g2-big-rating">4.7/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(2 reviews)</span><a href="https://www.g2.com/products/day-ai/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>not public — Day AI is too early-stage for significant public review volume. No G2 reviews found. Source: Bing search Nov 2026.</p><a href="not available" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>not public — no critical reviews found publicly. Day AI launched CRMx as generally available in 2024 and has limited public review data.</p><a href="not available" target="_blank" class="src-link">View ↗</a></div>
+    
+    
   </div>
 </div>
 
@@ -3067,10 +3150,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://day.ai" target="_blank" rel="noopener">https://day.ai ↗</a>
-  </div>
+  <img src="screenshots/day-ai/homepage.jpg" class="comp-screenshot" alt="day ai homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
@@ -3237,13 +3317,11 @@
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
   <div class="g2-rating-row">
-    <span class="g2-big-rating">4.9</span>
-    <span class="g2-star-display">★</span>
-    <span class="g2-count-disp">(10 reviews reviews)</span>
+    <span class="g2-big-rating">4.9/5</span><span class="g2-star-display">★</span><span class="g2-count-disp">(10 reviews)</span><a href="https://www.g2.com/products/reevo/reviews" target="_blank" class="src-link" style="margin-left:8px;font-size:12px;">G2 ↗</a>
   </div>
   <div class="g2-grid">
-    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Coming from HubSpot, Reevo was truly a breath of fresh air. Their vertically integrated platform for outbound sales and AI-first workflow has made spinning up campaigns a breeze for us, and we're booking meetings at a steady clip with their outbound tools. The Reevo team has been the best vendor we've ever worked with, and they continue to ship huge updates at breakneck pace.</p><a href="https://reevo.ai (homepage testimonial, Nate, Digital Marketing Manager, nClarity — corroborated by G2 rating context at https://www.g2.com/products/reevo/reviews)" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>Setting up multi-step sequences in Reevo took me minutes, not hours. The workflow is so intuitive that I can map out an entire outreach strategy without touching a spreadsheet or juggling multiple tools. It feels like Outreach on autopilot, but way easier to set up and actually use.</p><a href="https://reevo.ai/products/connect (Leslie, CEO, Stealth Co.)" target="_blank" class="src-link">View ↗</a></div>
-    <div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Very new product — 10 G2 reviews total as of Nov 2026, all skewing positive. No significant negative review patterns available publicly. Given Series A stage (Nov 2025) and early customer base, critical feedback is limited.</p><a href="https://www.g2.com/products/reevo/reviews" target="_blank" class="src-link">View ↗</a></div><div class="g2-box g2-neg"><div class="g2-stars">★☆☆☆☆</div><p>Intent signals and signal prospecting (key competitive features vs ZoomInfo/Apollo) are listed as 'Soon' on the pricing comparison — not yet shipped, which could be a gap for prospects needing those capabilities now.</p><a href="https://reevo.ai/pricing (feature comparison, fetched 2026-11-02)" target="_blank" class="src-link">View ↗</a></div>
+    <div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>I&#x27;ve been using Reevo for over eight months, and it&#x27;s by far the best product in this category. It makes my life easier than Salesforce or HubSpot, and the UI is great. I like its LLM integrations, its ability to draft emails for me, and the dashboard it gives me each day. I use it to research companies and find contact information.</p><a href="https://www.g2.com/products/reevo/reviews" target="_blank" class="src-link">View on G2 ↗</a></div><div class="g2-box g2-pos"><div class="g2-stars">★★★★★</div><p>What stands out most about Reevo is the tight integration between meeting notes and opportunity tracking — it&#x27;s incredibly powerful. The AI-generated summaries and curated video clips have become core to how we operate. We use them for salesperson training, capturing and tracking opportunity details, managing follow-ups, and even documenting product feedback.</p><a href="https://www.g2.com/products/reevo/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
+    <div class="g2-box g2-neg"><div class="g2-stars">★★☆☆☆</div><p>Reevo has only 10 reviews on G2 with a 4.9/5 rating — no 1-star or 2-star reviews found. Product is early-stage with limited public feedback.</p><a href="https://www.g2.com/products/reevo/reviews" target="_blank" class="src-link">View on G2 ↗</a></div>
   </div>
 </div>
 
@@ -3254,10 +3332,7 @@
 
 <div class="info-card">
   <div class="block-label">Homepage Screenshot</div>
-  <div class="screenshot-placeholder">
-    <span>📷 No screenshot captured</span>
-    <a href="https://reevo.ai" target="_blank" rel="noopener">https://reevo.ai ↗</a>
-  </div>
+  <img src="screenshots/reevo/homepage.jpg" class="comp-screenshot" alt="reevo homepage" loading="lazy">
 </div>
 
 <div class="monday-angle-box">
