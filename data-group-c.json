@@ -1,0 +1,532 @@
+{
+  "_meta": {
+    "generated": "2026-11-02",
+    "researcher": "Dex / OpenClaw",
+    "scope": "AI-native sales tools (deep x5) + horizontal PMs (light x4)",
+    "notes": "G2 direct page scraping blocked (JS-gated). Ratings/counts from Bing AI search summaries; specific verbatim quotes sourced from third-party review aggregators (landbase.com, lemlist.com, aigtmstack.com) which quote G2. Day.ai homepage is a JS React app returning minimal HTML; content sourced from llms-style snippet in Bing AI summary + pricing analysis from ahoy.ai (verified Sep 2026). All sources timestamped/linked."
+  },
+  "deep_competitors": [
+    {
+      "id": "11x",
+      "name": "11x",
+      "tagline": "AI Agents for Outbound, Inbound & Expansion",
+      "phase": "Series B startup (post-controversy, leadership change)",
+      "funding": "$74M total — $24M Series A (Sep 2024, Benchmark) + $50M Series B (Nov 2024, a16z)",
+      "valuation": "~$350M at Series B",
+      "arr": "~$3M actual ARR (TechCrunch Mar 2025 investigation; was internally claimed as $14M by counting trials as annual contracts)",
+      "funding_source": "https://www.11x.ai/blog/series-a | https://techcrunch.com/2025/03/24/a16z-and-benchmark-backed-11x-has-been-claiming-customers-it-doesnt-have | https://trysolostack.com/blog/is-11x-legit/",
+      "h1": "agents that drive revenue",
+      "h2": "Convert inbound demand. Run your outbound playbooks. Expand your accounts. Across every channel.",
+      "h1_h2_source": "https://www.11x.ai (fetched 2026-11-02)",
+      "value_prop": "11x provides AI-powered revenue agents — Alice (outbound email/social), Julian (voice/phone), and others — that autonomously handle prospecting, personalized outreach, inbound qualification, and expansion, replacing or augmenting human SDR teams entirely.",
+      "promise": "Scale outbound, capture inbound demand, and expand accounts simultaneously — pipeline generation that runs 24/7 without human SDR headcount.",
+      "motion": "SLG",
+      "motion_detail": "No public free trial; primary CTA is 'Book a Demo'. Pricing page requires sales conversation. Voice AI demo ('Try Voice AI') is an on-page interactive experience, not product access.",
+      "gtm": "Direct enterprise sales. Demo-first flow. Content marketing via 'Flight Log' blog. Case studies from customers (Leica, Checkr, Brainsuite, Canibuild). Comparison pages vs competitors (Artisan). Voice AI as differentiated demo hook.",
+      "icp": "B2B revenue teams at mid-market to enterprise companies. Industries: tech, biotech, professional services. Company size: 50–5,000+ employees. Primary use case: outbound pipeline generation at scale.",
+      "persona": "GTM Operations, Revenue Operations, Sales Development Reps (SDRs), VP of Sales, Head of Growth",
+      "pricing_tiers": "Growth: $3,750/mo billed annually (~$45K/yr; up to 5 end users, 2,000 new prospects/mo). Pro: custom annual pricing. Enterprise: custom (annual or multi-year)",
+      "pricing_model": "Annual contract, seat + usage-based. Pricing by digital worker type and prospect volume. Contracts reportedly range $50K–$90K+ depending on volume/configuration.",
+      "ai_pricing": "AI is the product (not an add-on). Alice, Julian are priced as the core offering.",
+      "free_tier": "None",
+      "pricing_source": "https://www.lemlist.com/blog/11x-ai-review (reviewed Sep 4 2026 pricing page snapshot)",
+      "ai_framing": "\"AI digital workers\" — sells work outputs, not software licenses",
+      "agentic_use_cases": [
+        {
+          "name": "Alice — AI Outbound SDR",
+          "status": "shipped",
+          "jtbd": [
+            "Prospect sourcing from 400M contact database + live signals (funding events, hiring spikes, job changes)",
+            "Deep buyer research and personalized multi-channel outreach (email, LinkedIn, power dialer prep)",
+            "Reply handling, follow-up cadencing, and meeting booking into rep calendars"
+          ],
+          "integrations": "CRM (Salesforce, HubSpot), email (Gmail, Outlook), LinkedIn, Chili Piper (routing)"
+        },
+        {
+          "name": "Julian — AI Voice Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Inbound lead callback in <60 seconds (form-fill triggers call)",
+            "Outbound cold calling in 30+ languages",
+            "Lead qualification and meeting booking / live transfer to rep"
+          ],
+          "integrations": "CRM writeback, calendar, SMS/WhatsApp follow-up"
+        },
+        {
+          "name": "Expansion Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Identify expansion opportunities within existing customer base",
+            "Voice outreach to customers to uncover upsell needs",
+            "Close simple upgrades and route complex deals to human reps"
+          ],
+          "integrations": "CRM, customer data"
+        }
+      ],
+      "offering": "Unified revenue agent platform covering outbound (Alice), inbound qualification (Julian voice), account expansion, and rep-assist tools. Positions as an alternative to hiring SDR headcount.",
+      "ai_talk": "Confident and bold — 'we sell work, not software'. Counter-positions legacy GTM SaaS as fragmented and broken. Frames AI agents as autonomous digital workers filling SDR/BDR roles. Post-controversy messaging has shifted toward documented outcomes (case studies with named metrics). Avoids making unrealistic autonomy claims after the TechCrunch saga.",
+      "integrations": "CRM: Salesforce, HubSpot. Email: Gmail, Outlook. Routing: Chili Piper. Calendar: Google, Outlook. Social: LinkedIn. Voice: proprietary. Data: 400M contact database (built-in). Deliverability: managed in-house (domain/sending reputation).",
+      "g2_rating": "4.4",
+      "g2_count": "33 reviews",
+      "g2_5star": [
+        {
+          "quote": "The time saved with 11x has been exponential. All of the monotonous work of multi-step cadences, research, prospecting, and message generation takes quite a bit of time. 11x cut it down dramatically.",
+          "url": "https://www.11x.ai/case-study/mapped (customer testimonial, corroborated by G2 summary at https://www.g2.com/products/11x/reviews)"
+        },
+        {
+          "quote": "Users consistently praise the exceptional support provided by the 11x team, highlighting their responsiveness and dedication to client success.",
+          "url": "https://www.g2.com/products/11x/reviews (G2 AI summary, accessed via Bing, 2026-11-02)"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "Users experienced issues with 11x's ability to appropriately follow up on responses, the lack of a cold calling feature at the time, and the difficulty in fine-tuning AI messaging to match brand voice.",
+          "url": "https://ai.g2.com/product/11x (G2 AI summary, accessed via Bing, 2026-11-02)"
+        },
+        {
+          "quote": "70–80% churn rate reported by TechCrunch sources; multiple buyers found the product did not deliver on autonomous pipeline promises at expected quality levels.",
+          "url": "https://trysolostack.com/blog/is-11x-legit/ (citing TechCrunch investigation 2025-03-24)"
+        }
+      ],
+      "acquisition_lps": [
+        "https://www.11x.ai/outbound (outbound-specific landing page)",
+        "https://www.11x.ai/inbound (inbound qualification LP)",
+        "https://www.11x.ai/demo (primary demo CTA page)"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://www.11x.ai",
+        "pricing": "not public — pricing requires sales conversation (no dedicated public pricing page)",
+        "ai": "https://www.11x.ai/worker/alice (redirects to /outbound)"
+      },
+      "monday_angle": "11x is squarely in the 'AI SDR as headcount replacement' category — no work management, no CRM — and competes on autonomous pipeline generation, not work coordination where monday.com plays.",
+      "other_insights": "Major credibility hit: TechCrunch investigated and found 11x displayed logos of non-customers (ZoomInfo denied being a customer), counted trials as annual ARR (actual ARR ~$3M vs claimed $14M), and had 70–80% churn. CEO Hasan Sukkar stepped down May 2025; CTO Prabhav Jain took over. Despite $74M raised from top-tier VCs (a16z + Benchmark), the company has had to rebuild trust. Pricing shifted multiple times in 2026. Valuation ~$350M. Still an active and functioning product; Alice and Julian exist and produce results for some customers. Key watch: whether new CEO + product rebrand can stabilize. Source: https://techcrunch.com/2025/03/24/a16z-and-benchmark-backed-11x-has-been-claiming-customers-it-doesnt-have | https://techcrunch.com/2025/05/05/11x-ceo-hasan-sukkar-steps-down/"
+    },
+    {
+      "id": "artisan",
+      "name": "Artisan",
+      "tagline": "Hire Ava, the autonomous AI BDR",
+      "phase": "Series A startup",
+      "funding": "$57.6M total across 5 rounds — $11.5M seed + $25M Series A (Apr 9, 2025)",
+      "valuation": "not public",
+      "arr": "not public",
+      "funding_source": "https://www.artisan.co/blog/artisan-series-a | https://techcrunch.com/2025/04/09/artisan-the-stop-hiring-humans-ai-agent-startup-raises-25m-and-is-still-hiring-humans/ | https://indexed.vc/companies/artisanai",
+      "h1": "Hire Ava, the autonomous AI BDR",
+      "h2": "Artisan automates your outbound with an all-in-one, AI-first platform powered by AI employees. Ava, the AI BDR, finds and enriches B2B leads, writes and sends personalized outreach, handles replies, and books meetings.",
+      "h1_h2_source": "https://www.artisan.co/llms-full.txt (canonical content, fetched 2026-11-02)",
+      "value_prop": "Artisan replaces the fragmented outbound stack (data, enrichment, sequencing, dialer, intent signals) with a single AI-first platform powered by Ava, an autonomous AI BDR that runs outbound end-to-end without headcount.",
+      "promise": "Scale pipeline without scaling headcount — Ava automates prospecting, personalized outreach, reply handling, and meeting booking autonomously.",
+      "motion": "SLG",
+      "motion_detail": "Primary CTA is 'Request a Demo'. No self-serve free tier. Pricing is tiered by lead volume/mailboxes. Startup, SMB, and Enterprise solution pages exist (solutions segmentation for SLG targeting).",
+      "gtm": "Demo-led sales with segment-specific landing pages (startups, SMBs, enterprise). Content marketing via blog. Famous 'Stop Hiring Humans' brand campaign generated significant earned media. Comparison pages vs 11x and AiSDR. YC-backed credibility + HubSpot Ventures validation for sales teams.",
+      "icp": "Fast-growing startups to enterprise B2B companies running outbound sales. Industries: broad B2B (tech, SaaS, professional services). Company size: seed-stage to enterprise.",
+      "persona": "VP of Sales, Head of Growth, SDR/BDR team leads, Revenue Operations, Founders running their own outbound",
+      "pricing_tiers": "Startup, Growth, and Enterprise tiers (exact prices require demo/contact). Credit-based model: plans scoped to lead volume, mailboxes, and dialer seats.",
+      "pricing_model": "Annual contract, credit-based (lead volume + mailbox + dialer seats). No published exact prices; requires sales conversation.",
+      "ai_pricing": "AI is the core product (Ava). AI not a separately priced add-on.",
+      "free_tier": "None",
+      "pricing_source": "https://www.artisan.co/pricing (llms summary: 'credit-based pricing, plan tiers for startups through enterprise') | https://www.artisan.co/llms-full.txt",
+      "ai_framing": "\"AI employees\" — Ava is positioned as a hire, not a tool; Artisan sells AI teammates with accountability for outcomes",
+      "agentic_use_cases": [
+        {
+          "name": "Ava 2.0 — Autonomous AI BDR",
+          "status": "shipped",
+          "jtbd": [
+            "Lead discovery and enrichment from 250M+ verified B2B contacts (email, direct dial, firmographics)",
+            "Personalized outbound email sequences using account/contact research + CRM context, with autonomous reply handling",
+            "Meeting scheduling automation — converts positive replies to booked calendar meetings; human escalation via configurable rules"
+          ],
+          "integrations": "CRM: Salesforce, HubSpot. Email: Gmail, Outlook (own domain sending). Calendar: Google, Outlook. LinkedIn: social outreach. Dialer: built-in. Intent data: built-in signals (funding, hiring, leadership events, tech changes, site activity). CRM reactivation for stale/closed-lost pipeline."
+        },
+        {
+          "name": "Upsell / Cross-sell Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Re-engage existing customers with expansion campaigns",
+            "CRM reactivation — revive stale or closed-lost pipeline"
+          ],
+          "integrations": "CRM sync"
+        }
+      ],
+      "offering": "All-in-one outbound platform: B2B contact database (250M+), enrichment, deliverability, email sequencing, a dialer, intent signals, autonomous reply handling, and meeting booking — all powered by Ava. Positions as a full outbound stack replacement.",
+      "ai_talk": "Bold and contrarian — 'Stop Hiring Humans' campaign made Artisan a category provocateur. Frames AI employees as a genuine workforce alternative to human SDRs. Has since moderated ('we're still hiring humans') but retains the provocative brand. Talks about AI taking 'real work' with accountability, not just assistance. Emphasizes outcomes (meetings booked) not features.",
+      "integrations": "CRM: Salesforce, HubSpot. Email: Gmail, Outlook (managed deliverability). Calendar: Google, Outlook. Social: LinkedIn. Voice/dialer: built-in. Data: 250M+ verified contacts (proprietary DB). Intent: built-in signals. SOC 2 Type II, SSO/SAML (enterprise).",
+      "g2_rating": "4.3",
+      "g2_count": "70 reviews",
+      "g2_5star": [
+        {
+          "quote": "Users consistently praise the intuitive interface and personalized outreach capabilities of Artisan, which significantly enhance their prospecting and engagement efficiency.",
+          "url": "https://www.g2.com/products/artisan-artisan/reviews (G2 AI summary via Bing, 2026-11-02)"
+        },
+        {
+          "quote": "Ava 2.0's end-to-end workflow — from audience research through reply handling to booking — running with configurable human-in-the-loop controls is consistently cited as a major workflow accelerator.",
+          "url": "https://www.landbase.com/blog/artisan-ai-reviews (Landbase review aggregation, Sep 2026)"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "Data quality inconsistencies in contact database — users report bounces and outdated direct-dial numbers in specific industries/regions.",
+          "url": "https://www.landbase.com/blog/artisan-ai-reviews (citing G2 feedback, Sep 2026)"
+        },
+        {
+          "quote": "Pricing structure requires demo before any numbers are given; several reviewers noted surprise at contract size relative to what the tool can do autonomously vs. still requiring human oversight.",
+          "url": "https://www.g2.com/products/artisan-artisan/reviews (G2 summary, accessed via Bing 2026-11-02)"
+        }
+      ],
+      "acquisition_lps": [
+        "https://www.artisan.co/solutions/startups",
+        "https://www.artisan.co/solutions/smbs",
+        "https://www.artisan.co/solutions/enterprise",
+        "https://www.artisan.co/artisan-vs-11x",
+        "https://www.artisan.co/crm-reactivation"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://www.artisan.co",
+        "pricing": "https://www.artisan.co/pricing",
+        "ai": "https://www.artisan.co/ai-sales-agent"
+      },
+      "monday_angle": "Artisan is purely outbound AI SDR — no PM, no CRM, no pipeline management. It competes with monday.com's sales offering only at the prospecting/outreach stage, not deal management or account visibility.",
+      "other_insights": "Founded 2023 by Jaspar Carmichael-Jack and Sam Stallings; YC W24. The 'Stop Hiring Humans' billboard campaign in San Francisco went viral in 2024, generating massive earned media and brand recognition. Series A led by Glade Brook Capital with HubSpot Ventures, Sequoia Scout, Y Combinator, Oliver Jung, Day One Ventures, BOND, Soma Capital. HubSpot Ventures participation is strategic — signals potential ecosystem/integration play. Total 5 rounds with $57.6M raised as of Apr 2025. Jaspar Carmichael-Jack remains CEO."
+    },
+    {
+      "id": "rox",
+      "name": "Rox",
+      "tagline": "Revenue Agents for the Global 2000",
+      "phase": "Growth / unicorn (post-Series A, $1.2B valuation)",
+      "funding": "~$50M total — seed led by Sequoia + Series A led by General Catalyst (GV also participated)",
+      "valuation": "$1.2B (March 2026)",
+      "arr": "Projected $8M ARR for 2025",
+      "funding_source": "https://techcrunch.com (Mar 12 2026, 'Sales automation startup Rox AI hits $1.2B valuation, sources say') | https://theneuralfeed.com/article (Mar 13 2026) | https://traded.co/vc/deal (Mar 16 2026)",
+      "h1": "The Revenue Agent for the Global 2000",
+      "h2": "The Rox agent generates pipeline, qualifies leads, books meetings, manages deals, and expands accounts — all on autopilot. Built for the Global 2000.",
+      "h1_h2_source": "https://www.rox.com (fetched 2026-11-02, from page title metadata and homepage hero text)",
+      "value_prop": "Rox deploys a warehouse-native revenue agent that automates the entire revenue cycle — outbound prospecting, lead qualification, deal management, and account expansion — for large enterprises, replacing fragmented point solutions with a single AI-powered operating system.",
+      "promise": "Automate the entire revenue cycle end-to-end on autopilot — from pipeline generation to deal close and account expansion — for the Global 2000.",
+      "motion": "Both (PLG + SLG)",
+      "motion_detail": "'Start now' CTA links to a signup flow (free tier for Individual plan at $100/mo). 'Contact Sales' for enterprise. Individual and Teams plans are self-serve; Enterprise requires sales. The free 'try' experience is limited but accessible without talking to sales.",
+      "gtm": "Enterprise-first (Global 2000 positioning) with outbound sales motion. Research-led content marketing (publishes AI/ML research on revenue agents). Analyst relations (Gartner Visionary 2026, IDC MarketScape Major Player). Named customer case studies from MongoDB, Ramp, New Relic, Together AI. Mac desktop app differentiates for daily rep use. Gartner recognition drives enterprise credibility.",
+      "icp": "Global 2000 enterprises and large-scale B2B revenue organizations. Industries: technology, financial services, cloud infrastructure, SaaS. Company size: typically 1,000+ employees. Sub-use: xAE/SDR teams with complex multi-stakeholder deals.",
+      "persona": "CIO, VP of Revenue, RevOps, Sales Development, GTM Engineering, Head of Revenue Strategy",
+      "pricing_tiers": "Individual: $100/mo (research, monitoring, contact enrichment, multi-channel outbound). Teams: $255/mo for whole team (unlimited seats, CRM sync, team management). Enterprise: contact us (data warehouse sync, SAML/SCIM/SSO, dedicated support pod).",
+      "pricing_model": "Outcome-based + usage-based hybrid. 'Only pay for agent work' — charges for value/outcomes delivered, not just data processed. Individual and Teams self-serve; Enterprise custom.",
+      "ai_pricing": "AI agent is the platform; pricing tiers gate agentic capabilities (research, outbound sequences, pipeline intelligence, warehouse sync).",
+      "free_tier": "No dedicated free tier; Individual plan starts at $100/mo with a 'try for free' entry point (then upgrade required for full features).",
+      "pricing_source": "https://www.rox.com/pricing (fetched 2026-11-02)",
+      "ai_framing": "\"Revenue Agent\" — one agent across the entire revenue cycle; warehouse-native; applied AI research shipped into product",
+      "agentic_use_cases": [
+        {
+          "name": "Outbound Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Automatically finds and engages prospects using account knowledge graph + live signals",
+            "Generates personalized outbound communications (email, slides, org charts) at scale",
+            "Coordinates multi-channel sequences with deliverability management"
+          ],
+          "integrations": "Salesforce, HubSpot, Gmail, Outlook, Outreach, Salesloft, Databricks, Snowflake, BigQuery"
+        },
+        {
+          "name": "Deal Management Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Meeting prep with buyer research and context from calls/emails/CRM",
+            "Deal health scoring and risk flagging from engagement signals",
+            "Forecast categories and commit management"
+          ],
+          "integrations": "Gong, Avoma, Attention (call recording), Salesforce, HubSpot, Gmail, Outlook, Slack"
+        },
+        {
+          "name": "Account Expansion Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Identifies renewal risk and expansion opportunities within existing accounts",
+            "Surfaces upsell signals from customer usage and engagement patterns",
+            "Pipeline visibility and deal drill-down for AEs and RevOps"
+          ],
+          "integrations": "CRM, call recorder integrations, data warehouse"
+        }
+      ],
+      "offering": "Single AI revenue agent platform with: outbound pipeline generation, inbound qualification, deal management, account expansion, meeting preparation, call intelligence (via integrations), forecasting, and warehouse-native data foundation. Mac desktop app for rep daily use. Research-grade AI infrastructure (knowledge graphs, relational schemas, custom evals).",
+      "ai_talk": "Research-led, credibility-first positioning — publishes technical papers and evals before shipping features. Claims applied AI research as a moat ('first of its kind in revenue vertical'). Counter-positions legacy CRMs as passive databases vs. Rox as an active revenue agent. Emphasizes 'warehouse-native' architecture as enterprise trust signal. Language: precise, technical, outcome-focused. No hype. Strong Gartner/IDC analyst validation used as social proof.",
+      "integrations": "CRM: Salesforce, HubSpot. Email: Gmail (org-wide), Outlook. Calendar: Google, Outlook. Slack. Call recording: Gong, Avoma, Attention. Sales engagement: Outreach, Salesloft. Data warehouses: Databricks, Snowflake, BigQuery, any Delta Lake/Iceberg. Dialer: click-to-call (in-app). MCP support (Teams plan+). Microsoft Copilot integration (Enterprise). SOC 2 Type I + II, GDPR, BYOK Encryption, in-VPC deployment (Enterprise).",
+      "g2_rating": "not public — 0 reviews on G2 (product listed but no community reviews yet)",
+      "g2_count": "0 on G2; 10 verified reviews on Gartner Peer Insights",
+      "g2_5star": [
+        {
+          "quote": "Within the first hour of onboarding a rep into Rox, it was like, 'we just saved you 80% of your day'",
+          "url": "https://www.rox.com/customers/upwind (Candace Hopkins, Sr. Revenue Operations Manager, Upwind — $1.6B company, Series B)"
+        },
+        {
+          "quote": "It's like having a rocket engine for your AI needs for your go to market organization. It's fast, it's scalable, and it's safe.",
+          "url": "https://www.rox.com/customers/mongodb (Deepa Gopinath, CIO, MongoDB)"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "not public — Rox has 0 G2 reviews as of Nov 2026; company is too new and enterprise-focused to have public community reviews. Gartner Peer Insights has 10 reviews (score not published publicly).",
+          "url": "https://www.g2.com/sellers/rox (accessed via Bing 2026-11-02)"
+        },
+        {
+          "quote": "not public — no critical G2 reviews available; limited public feedback outside customer case studies. Product is very new (founded 2024, unicorn by Mar 2026).",
+          "url": "not available"
+        }
+      ],
+      "acquisition_lps": [
+        "https://www.rox.com/platform/outbound-agent",
+        "https://www.rox.com/customers",
+        "https://www.rox.com/reports/gartner-magic-quadrant"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://www.rox.com",
+        "pricing": "https://www.rox.com/pricing",
+        "ai": "https://www.rox.com/platform"
+      },
+      "monday_angle": "Rox is an enterprise revenue OS that wants to consolidate the GTM stack — including the CRM layer — for Global 2000. It's a potential long-term platform competitor to monday.com's sales CRM aspirations, especially given its warehouse-native architecture and analyst recognition.",
+      "other_insights": "Founded 2024 by Ishan Mukherjee (CEO, ex-??), Shriram Sridharan (CTO), Diogo Ribeiro (CGO), and Christopher Ré (Research — Stanford ML professor, creator of Snorkel). Stanford ML research pedigree is a key differentiator. Achieved unicorn status ($1.2B) just ~18 months after founding with only $50M raised — extraordinary valuation-to-funding ratio. Named Gartner Visionary in 2026 Magic Quadrant for Revenue Action Orchestration AND Gartner Cool Vendor 2025 AND IDC MarketScape Major Player. Enterprise customers include MongoDB, Ramp, New Relic, Together AI ($8.3B), Cloud Software Group (400K+ orgs), Xbow ($270M Sequoia), Upwind, LogicMonitor, Bynder, Codat, Rev.io. Has a Mac desktop app for daily rep use. Publishes technical AI research publicly (living evals, RAG experiments, reward models). Address: 251 Rhode Island St, Suite 205, San Francisco, CA 94103."
+    },
+    {
+      "id": "day-ai",
+      "name": "Day AI",
+      "tagline": "Context Graph and Agent Control Plane for GTM",
+      "phase": "Seed / early startup",
+      "funding": "$24M raised (rounds not fully detailed publicly)",
+      "valuation": "not public",
+      "arr": "not public",
+      "funding_source": "https://www.startuphub.ai/startups/day-ai (Oct 5, 2026) | https://agenticindex.io/vendors/day-ai (Sep 1, 2026)",
+      "h1": "Context Graph and Agent Control Plane for GTM",
+      "h2": "Day AI gives your agents a shared memory built from every call, email, and meeting your team has ever had.",
+      "h1_h2_source": "https://day.ai (current homepage, Bing AI summary Nov 2026) | https://day.ai/about (fetched redirect)",
+      "value_prop": "Day AI eliminates manual CRM data entry by building a context graph from all team interactions (calls, emails, meetings, Slack) and providing an agent control plane that lets companies deploy, evaluate, and update AI agent behaviors across their entire GTM workforce.",
+      "promise": "Life after CRM — replace the rigid data-entry model with an AI-native context layer that makes every agent smarter with every interaction, eliminating manual data entry entirely.",
+      "motion": "PLG + SLG",
+      "motion_detail": "Free tier available (first AI agent free, 0 automated skill slots). Turbo/Professional/Executive tiers unlock automation and advanced capabilities. Per-agent pricing model (not per-seat) enables PLG deployment without large upfront commitment. Sales motion for larger enterprise deployments.",
+      "gtm": "Product-led (free agent tier). Developer/ops-oriented GTM (GTM Brain exposes an npx command-line interface against a 'company brain' directory — targets RevOps engineers who script agents). Sequoia connection (Christopher O'Donnell presented to Sequoia: 'Why CRM Needs an AI Revolution'). SDK launch (programmable CRM). Early positioning via founder thought leadership and HubSpot alumni network.",
+      "icp": "B2B sales and revenue teams (SDRs, AEs, RevOps, CSMs) at startups to mid-market companies. Industries: broad B2B SaaS. Increasingly positioning for technical GTM operators who want programmable agent infrastructure, not just a CRM.",
+      "persona": "RevOps engineers, VP of Sales, Head of GTM, Sales Operations, technically-oriented founders/GTM leads",
+      "pricing_tiers": "Free: $0/agent (0 skill slots, Gmail/Calendar ingestion, meeting clips, context search). Turbo: $30/agent/mo ($24 annual) — 2 skill slots, email drafts, web search, task management. Professional: $75/agent/mo ($60 annual) — 5 skill slots, pipeline/opportunity management, custom views, analytics. Executive: $250/agent/mo ($200 annual) — 10 skill slots, prospecting, advanced custom instructions. Volume discounts from 21+ agents.",
+      "pricing_model": "Per-agent pricing (not per-seat). Pricing scales with what agents do (skill slots), not with team headcount. Once workspace has 1+ Professional/Executive agent, colleagues access basic features free.",
+      "ai_pricing": "AI capabilities gate (skill slots) determine tier. AI is the entire product.",
+      "free_tier": "Yes — free first AI agent with basic context ingestion (no automated skill slots)",
+      "pricing_source": "https://ahoy.ai/ai-native-crm/pricing-index/day-ai/ (verified Sep 17, 2026) | https://day.ai/pricing",
+      "ai_framing": "\"Customer memory infrastructure\" — shared context graph that makes every AI agent smarter; agents as programmable workers via GTM Brain",
+      "agentic_use_cases": [
+        {
+          "name": "CRMx — AI-native CRM replacement",
+          "status": "shipped",
+          "jtbd": [
+            "Passive data capture from all team interactions (email, calendar, meetings, Slack) into a shared context graph — no manual entry",
+            "Opportunity/pipeline management with AI-assisted updates and risk surfacing",
+            "Natural language querying of customer data ('Ask' interface) for instant insights"
+          ],
+          "integrations": "Gmail, Google Calendar, Zoom (meeting recording), Slack, HubSpot, Salesforce"
+        },
+        {
+          "name": "GTM Brain — Agent Control Plane",
+          "status": "shipped",
+          "jtbd": [
+            "Deploy and manage AI agent behaviors across the GTM workforce via code (npx command against a company brain directory)",
+            "Evaluate and update agent instructions across all deployed agents simultaneously",
+            "Programmable CRM — turn customer data/context into agent-readable shared memory"
+          ],
+          "integrations": "Claude Code, Codex (LLM-native), any GTM tool with API"
+        },
+        {
+          "name": "Executive Agent — Prospecting + Advanced Automation",
+          "status": "shipped",
+          "jtbd": [
+            "Prospecting and lead discovery powered by shared context graph",
+            "Advanced custom instructions for agent workflows (10 automated skill slots)",
+            "RevOps automation at scale"
+          ],
+          "integrations": "Full stack (Gmail, Calendar, Zoom, Slack, CRM, web search)"
+        }
+      ],
+      "offering": "AI-native CRM (CRMx) that replaces traditional CRM forms/fields with a dynamic context graph. Core products: Context Graph (auto-captures all customer interactions), Agent Control Plane (deploy/manage/evaluate AI agent behaviors), GTM Brain (programmable RevOps harness via CLI). Increasingly positioning as infrastructure for AI-native GTM, not just a CRM.",
+      "ai_talk": "Infrastructure-first and technical in tone — positions Day AI as the 'memory layer' for AI agents rather than a tool for human reps. Uses terms like 'context graph', 'agent control plane', 'skill slots', 'company brain'. Counter-positions traditional CRM as a data-entry prison. Resonates with RevOps engineers and technically-forward GTM teams. Founder Christopher O'Donnell (ex-HubSpot CPO) brings credibility in arguing why CRM needs reinvention.",
+      "integrations": "Gmail, Google Calendar, Zoom, Slack, HubSpot, Salesforce. GTM Brain: Claude Code / Codex (agent runtime). SOC 2 Type II.",
+      "g2_rating": "not public — Day AI not listed with community reviews on G2 as of Nov 2026 (too early-stage)",
+      "g2_count": "not public",
+      "g2_5star": [
+        {
+          "quote": "not public — Day AI is too early-stage for significant public review volume. No G2 reviews found. Source: Bing search Nov 2026.",
+          "url": "not available"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "not public — no critical reviews found publicly. Day AI launched CRMx as generally available in 2024 and has limited public review data.",
+          "url": "not available"
+        }
+      ],
+      "acquisition_lps": [
+        "https://day.ai (homepage — primarily drives free agent signup)",
+        "https://day.ai/pricing"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://day.ai",
+        "pricing": "https://day.ai/pricing",
+        "ai": "not public — product is behind auth after signup"
+      },
+      "monday_angle": "Day AI is building the context/memory layer that makes AI agents in GTM smarter — a completely different bet than monday.com's workflow/CRM play, but both are going after the 'system of record' for sales teams.",
+      "other_insights": "Co-founded by Christopher O'Donnell (HubSpot's former Chief Product Officer, built HubSpot CRM from scratch) and Michael Pici (also ex-HubSpot). This is arguably the strongest founding team pedigree in the AI-native CRM category — O'Donnell literally built what Day AI is trying to replace. The per-agent pricing model (vs per-seat) is a structural bet that the team size metaphor will become irrelevant as AI agents do the work. GTM Brain (npx CLI for agent management) signals a shift toward selling AI infrastructure to technical operators, not just a better UI for reps. Sequoia connection via April 2025 YouTube session ('Why CRM Needs an AI Revolution with Day.ai Founder Christopher O'Donnell'). Raised $24M. Homepage content is JS-heavy (React SPA) — content changes frequently. SDK launched Sep 2025. AiScore from agenticindex.io: 8/14."
+    },
+    {
+      "id": "reevo",
+      "name": "Reevo",
+      "tagline": "The AI-Native Sales Platform",
+      "phase": "Series A startup (post-funding)",
+      "funding": "$80M total across 2 rounds — seed + Series A (Nov 5, 2025)",
+      "valuation": "~$500M",
+      "arr": "not public",
+      "funding_source": "https://www.vcbacked.co/company/reevo | https://indexed.vc/companies/reevo | https://caplight.com/company/reevo",
+      "h1": "The AI-native sales platform",
+      "h2": "Your sales tools are guessing. Reevo actually knows.",
+      "h1_h2_source": "https://reevo.ai (fetched 2026-11-02)",
+      "value_prop": "Reevo is a unified AI-native sales platform that replaces the fragmented 'Frankenstack' of CRM + SEP + data enrichment + call recording + forecasting tools with one platform that captures full context from every deal interaction, so AI can surface accurate insights — not guesses.",
+      "promise": "Every rep closes like your best one — because Reevo learns from every deal across your team and applies that intelligence to every future interaction, compounding over time.",
+      "motion": "SLG with PLG elements",
+      "motion_detail": "Primary CTA is 'Book a Demo' + 'Get a custom quote'. Startup Program exists (qualifying startups unlock special pricing). No public self-serve free tier but 'onboarding is easy, get up and running in minutes' suggests a low-friction entry. Core/Pro tiers with usage-based pricing structure (not seat-locked).",
+      "gtm": "Direct sales (demo-first). Startup Program for early-stage GTM teams. Content marketing (extensive blog on sales topics: CRM hygiene, prospecting, forecasting, cold email templates, dialers, Salesforce alternatives). YouTube presence including SaaStr Annual 2026 talk by CRO ('How Reevo Hit Its Number With Half the Reps'). GTMnow podcast appearances (CEO David Zhu). Positions aggressively vs HubSpot and Salesforce (dedicated comparison content).",
+      "icp": "B2B technology, SaaS, and financial services companies. Series A to Series C stage preferred (startup program for earlier). Company size: 2–50 person sales teams (sweet spot). Heads of Revenue, VP of Sales, GTM Ops who are building their first serious GTM motion and want to avoid stitching together multiple point solutions.",
+      "persona": "VP of Sales, Head of Revenue, GTM Ops, Sales Operations, Founders running first sales hires, Revenue Operations Managers",
+      "pricing_tiers": "Core: basic plan (1,000 enrichment credits/user/mo, 1,000 dialer min/user/mo, 2,500 meeting min/user/mo, 50 active sequences/org, 48hr SLA). Pro: double the limits (2,000 credits, 2,000 dialer min, 4,000 meeting min, 100 active sequences, 24hr SLA + Slack Connect). Enterprise: custom ('we'll build your plan together').",
+      "pricing_model": "Usage-based (credits for enrichment, minutes for dialer and meetings, sequences per org). No published price-per-seat. Custom quote required for actual pricing. Startup Program for special pricing.",
+      "ai_pricing": "AI is embedded in all tiers (Ask Reevo AI assistant, auto-deal updates, meeting recording intelligence, coaching insights). AI not a separate tier.",
+      "free_tier": "None publicly advertised (Startup Program exists for qualifying companies)",
+      "pricing_source": "https://reevo.ai/pricing (fetched 2026-11-02)",
+      "ai_framing": "\"AI-native\" architecture — built on a shared intelligence layer, not AI bolted onto a legacy data model; 'context compounds, tools fragment'",
+      "agentic_use_cases": [
+        {
+          "name": "Find — AI Prospecting & Enrichment",
+          "status": "shipped",
+          "jtbd": [
+            "TAM sourcing: map total addressable market and build high-potential prospect lists in seconds",
+            "Contact/company enrichment in one click with verified email + company data, auto-synced to CRM",
+            "Inbound form qualification: instantly qualifies web leads against ICP criteria and routes to the right rep"
+          ],
+          "integrations": "CRM (Salesforce, HubSpot via integrations), email, web search (built-in)"
+        },
+        {
+          "name": "Connect — Sales Engagement + Dialer",
+          "status": "shipped",
+          "jtbd": [
+            "Multi-step adaptive sequences across email with managed deliverability (domain purchase + inbox warming built-in)",
+            "Click-to-call dialer with auto-logging of every conversation",
+            "Smart scheduler with inbound form routing and auto-meeting booking"
+          ],
+          "integrations": "Email (Gmail, Outlook, managed deliverability), calendar, Slack (reply alerts), phone"
+        },
+        {
+          "name": "Sell — Meeting Intelligence + Deal Management",
+          "status": "shipped",
+          "jtbd": [
+            "Meeting prep with full account context before every call",
+            "Meeting recording + smart task logging — auto-updates CRM from call content",
+            "Deal health monitoring: surfaces risk before deals slip based on engagement signals"
+          ],
+          "integrations": "Calendar, video calls, CRM writeback"
+        },
+        {
+          "name": "Manage — Forecasting + Coaching",
+          "status": "shipped",
+          "jtbd": [
+            "Evidence-based forecasting (grounded in engagement signals, not rep-submitted optimism)",
+            "Coaching insights — turns deal data into consistent rep improvement feedback",
+            "Unlimited reporting and dashboards (Pro tier)"
+          ],
+          "integrations": "CRM, call recordings, Slack"
+        },
+        {
+          "name": "Ask Reevo — AI GTM Assistant",
+          "status": "shipped",
+          "jtbd": [
+            "Natural language queries about pipeline, deal health, objections, and next steps",
+            "Cites exact source (call, email, or record) for every answer",
+            "Lives in Slack — mention Ask Reevo in any channel for cited answers in context"
+          ],
+          "integrations": "Slack, all Reevo data, MCP connectors (external tools)"
+        },
+        {
+          "name": "Intent Signals + Signal Prospecting",
+          "status": "roadmap",
+          "jtbd": [
+            "Detect prospects actively in-market from company news, competitor content interactions, tech shifts, hiring signals",
+            "Every win triggers a lookalike buyer search, scored by fit and ready to sequence"
+          ],
+          "integrations": "Web signals, CRM (planned)"
+        }
+      ],
+      "offering": "Complete AI-native sales platform: AI-native CRM (custom objects, auto-updates, 'Ask Reevo' AI assistant), prospecting + enrichment (Find), sales engagement + dialer (Connect), meeting intelligence + deal management (Sell), and forecasting + coaching (Manage). One platform intended to replace Salesforce/HubSpot + Outreach/Salesloft + ZoomInfo + Gong + Clari. Built by ex-DoorDash engineering leadership.",
+      "ai_talk": "Confident, outcome-focused, and anti-Frankenstack. The core narrative: 'A CRM nobody updates. A call recorder. An outbound tool. Each one sees a fragment, so the AI bolted onto them is guessing.' Positions Reevo as the only AI that 'actually knows' because it has full context from every deal. Talks about AI that 'compounds' rather than assists. Tone: pragmatic, engineering-credible, no fluff. Customer quote: 'Coming from HubSpot, Reevo was truly a breath of fresh air.'",
+      "integrations": "Email: Gmail, Outlook (managed deliverability, domain purchase built-in). Calendar: Google, Outlook. CRM: built-in AI-native CRM + Salesforce/HubSpot sync (via integrations). Dialer: built-in click-to-call. Voice: built-in meeting recording. Slack: native (Ask Reevo in any channel). MCP connectors (new as of Oct 2026 — pulls context from external tools into Ask Reevo). SOC2 implied (not explicitly confirmed on site).",
+      "g2_rating": "4.9",
+      "g2_count": "10 reviews",
+      "g2_5star": [
+        {
+          "quote": "Coming from HubSpot, Reevo was truly a breath of fresh air. Their vertically integrated platform for outbound sales and AI-first workflow has made spinning up campaigns a breeze for us, and we're booking meetings at a steady clip with their outbound tools. The Reevo team has been the best vendor we've ever worked with, and they continue to ship huge updates at breakneck pace.",
+          "url": "https://reevo.ai (homepage testimonial, Nate, Digital Marketing Manager, nClarity — corroborated by G2 rating context at https://www.g2.com/products/reevo/reviews)"
+        },
+        {
+          "quote": "Setting up multi-step sequences in Reevo took me minutes, not hours. The workflow is so intuitive that I can map out an entire outreach strategy without touching a spreadsheet or juggling multiple tools. It feels like Outreach on autopilot, but way easier to set up and actually use.",
+          "url": "https://reevo.ai/products/connect (Leslie, CEO, Stealth Co.)"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "Very new product — 10 G2 reviews total as of Nov 2026, all skewing positive. No significant negative review patterns available publicly. Given Series A stage (Nov 2025) and early customer base, critical feedback is limited.",
+          "url": "https://www.g2.com/products/reevo/reviews"
+        },
+        {
+          "quote": "Intent signals and signal prospecting (key competitive features vs ZoomInfo/Apollo) are listed as 'Soon' on the pricing comparison — not yet shipped, which could be a gap for prospects needing those capabilities now.",
+          "url": "https://reevo.ai/pricing (feature comparison, fetched 2026-11-02)"
+        }
+      ],
+      "acquisition_lps": [
+        "https://reevo.ai/products/find",
+        "https://reevo.ai/products/connect",
+        "https://reevo.ai/products/sell",
+        "https://reevo.ai/products/manage",
+        "https://reevo.ai/about (startup story + team credibility LP)"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://reevo.ai",
+        "pricing": "https://reevo.ai/pricing",
+        "ai": "https://reevo.ai (Ask Reevo section)"
+      },
+      "monday_angle": "Reevo is the most direct structural competitor to monday.com's sales CRM vision — both are building unified platforms to replace the Frankenstack, with AI at the core. Reevo has a head start on AI-native CRM architecture, deal intelligence, and outbound, but lacks monday.com's brand, existing user base, and PM integrations.",
+      "other_insights": "Founded April 2024. Founders all have DoorDash backgrounds: David Zhu (CEO — ex-Head of Engineering at DoorDash, scaled from $700M to $75B market cap at IPO), Cindy Hao (Co-Founder — ex-Atomic/OpenStore), Clement Fang (Co-Founder — ex-DoorDash platform engineering), Curtis [Anh] (Co-Founder, also ex-DoorDash). This is an execution-credibility founding team: they built at massive scale before. $80M raised from Khosla Ventures + Kleiner Perkins — top-tier VCs signal conviction in the category. Valuation ~$500M. Blog strategy is aggressively SEO-focused (comparison articles vs HubSpot, Salesforce, ZoomInfo, etc.) to capture bottom-of-funnel traffic from competitors' existing users. SaaStr Annual 2026 talk: 'How Reevo Hit Its Number With Half the Reps' — signals they're proving unit economics with existing customers. GTMnow podcast 'Inside Reevo's $80M Bet to Kill the $10B Frankenstein Stack' is the best overview of their thesis."
+    }
+  ],
+  "light_check": [
+    {
+      "id": "asana",
+      "name": "Asana",
+      "sales_ai": "no",
+      "sales_offering": "no",
+      "summary": "Asana has broad horizontal AI ('Agentic Work Management') with 30+ prebuilt AI Teammates across marketing, IT, operations, manufacturing, retail, and healthcare — but no sales-specific AI agents or CRM functionality. There is no dedicated sales offering; sales teams would use Asana for project tracking, not pipeline management or prospecting. Asana's 'Dash' AI (chief-of-staff routing) and 'AI Studio' (no-code automations) are general-purpose workflow tools, not sales-native.",
+      "source": "https://asana.com/product/ai (fetched 2026-11-02)"
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "sales_ai": "partial",
+      "sales_offering": "partial",
+      "summary": "ClickUp has a dedicated Sales Teams page with 'Super Agents' specifically scoped to sales workflows: Pipeline Agent, Forecast Agent, Enablement Agent, Prep Agent, Stakeholder Agent, Renewal Agent, QBR Agent, and Expansion Agent. This is more than templates — it's purpose-built AI for deal management. However, ClickUp is still fundamentally a project/work management platform (not a CRM or outbound tool), and these agents operate on tasks/records within ClickUp rather than integrating natively with CRM or email outbound sequences. No AI SDR, no prospecting, no call intelligence.",
+      "source": "https://clickup.com/teams/sales (fetched 2026-11-02)"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "sales_ai": "no",
+      "sales_offering": "no",
+      "summary": "Notion's CRM presence is entirely template-based (2,224+ CRM templates in its gallery). There is no dedicated sales AI — Notion AI is general-purpose (writing, summarizing, Q&A within pages). No pipeline management, no outbound AI, no deal intelligence. Notion redirects sales CRM queries to its template gallery, confirming no native sales product. The 'use-case/crm' URL redirects to the template category.",
+      "source": "https://www.notion.com/templates/category/crm (fetched 2026-11-02)"
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable",
+      "sales_ai": "partial",
+      "sales_offering": "partial",
+      "summary": "Airtable has a dedicated Sales CRM solution page with real AI features: AI-generated account plans, buying committee mapping, expansion opportunity surfacing (predicting upsell/cross-sell/renewal risk), and pipeline visibility. It also integrates with Salesforce, HubSpot, and Gong. However, Airtable is a flexible database platform (not a native CRM) — it positions itself as 'the operational layer that extends CRM capabilities' alongside existing tools, not a replacement. There is no AI SDR, no outbound sequencing, and no meeting intelligence.",
+      "source": "https://www.airtable.com/solutions/sales (fetched 2026-11-02)"
+    }
+  ]
+}

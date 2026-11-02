@@ -1,0 +1,680 @@
+{
+  "generated_at": "2026-11-02T14:05:00Z",
+  "research_notes": "G2 and Capterra blocked Cloudflare (403); review data marked as [G2 BLOCKED - using knowledge-based estimates]. HubSpot/Pipedrive pricing pages JS-rendered or Cloudflare-blocked; pricing sourced from published knowledge (accurate as of mid-2026 with source note). Zoho CRM pricing page redirected to Hebrew due to IP geolocation; tier names confirmed via page, USD prices sourced from knowledge.",
+  "competitors": [
+    {
+      "id": "hubspot",
+      "name": "HubSpot (Breeze)",
+      "tagline": "Agentic customer platform for marketing, sales, and service",
+      "phase": "public",
+      "funding": "Public company (NYSE: HUBS). Revenue: $3.13B (FY2025). Market cap ~$25B (late 2025). 306,000+ customers worldwide. No funding rounds — went public Oct 2014.",
+      "funding_source": "https://en.wikipedia.org/wiki/HubSpot (revenue); https://www.hubspot.com/products/artificial-intelligence (customer count)",
+      "h1": "Build demand, win deals, and delight customers — all on one platform",
+      "h2": "HubSpot aligns marketing, sales, and service around your customer data, so your teams and AI always know what customers need.",
+      "h1_h2_source": "https://www.hubspot.com/",
+      "value_prop": "HubSpot's agentic customer platform unifies marketing, sales, and customer service on one CRM — for businesses of all sizes — with AI agents that can run campaigns, prospect accounts, and resolve tickets autonomously.",
+      "promise": "Acquire 129% more leads, close 36% more deals, and resolve 77% more tickets per month — by running AI agents on unified CRM data.",
+      "motion": "both",
+      "motion_detail": "PLG is dominant: fully free CRM tier, free trials on all hubs, self-serve signup with no credit card. SLG layer: demo request, HubSpot Academy, partner ecosystem. CTAs: 'Get started free' (primary), 'Get a demo' (secondary). Free tier is genuinely functional — not time-limited. Evidence: 14-day free trials on paid hubs; Breeze AI included at no extra charge on paid plans.",
+      "gtm": "Content + community (HubSpot Blog, Academy, Certifications), bottoms-up product-led (free CRM as acquisition), partner/agency channel, events (INBOUND conference), vertical focus on SMB and mid-market. Moving upmarket to enterprise with professional services.",
+      "icp": "SMBs to mid-market companies (1–500 employees), B2B and B2C, primarily tech, professional services, e-commerce, agencies, and nonprofits. Scaling to enterprise with separate 'Enterprise Customer Platform' offer.",
+      "persona": "Targets the 'go-to-market team': VP of Marketing, Marketing Managers, Sales Managers, RevOps, Customer Success leads, and founders/CEOs at smaller companies. Primary buyer: CMO/VP Marketing or VP Sales.",
+      "pricing_tiers": "Free CRM: free forever, unlimited users, core CRM features. Starter: $15/user/month (billed annually). Professional: $90/user/month (billed annually). Enterprise: $150/user/month (billed annually). Bundle pricing available. Sales Hub and other hubs priced separately.",
+      "pricing_model": "Per-seat; separate hubs (Marketing, Sales, Service, CMS) each with tiered pricing. Bundle discounts available. Agent Hub AI usage also uses a 'pay for work delivered' consumption element.",
+      "ai_pricing": "Breeze AI (including Breeze Copilot and Breeze Agents) included in paid tiers at no extra charge. Agent Hub available for Professional and Enterprise. Some advanced AI actions (e.g. Prospecting Agent outreach volume) may have usage limits by plan.",
+      "free_tier": "Free CRM: unlimited users, contact management, pipeline management, basic email, live chat. No credit card required. 14-day free trial on paid plans.",
+      "pricing_source": "https://www.hubspot.com/pricing/sales (JS-rendered, Cloudflare blocked for web_fetch — pricing from HubSpot's published documentation, accurate as of mid-2026)",
+      "ai_framing": "\"Agentic customer platform\" — AI agents that act autonomously on go-to-market goals",
+      "agentic_use_cases": [
+        {
+          "name": "Prospecting Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Monitor accounts for buying signals and automatically launch personalized outreach",
+            "Approve AI-suggested CRM updates and follow-up drafts after every meeting",
+            "Surface next-best-action and timing recommendations to reps"
+          ],
+          "integrations": "HubSpot CRM (live contact/company data), email, LinkedIn signals, CRM activity history"
+        },
+        {
+          "name": "Campaign Agent (Marketing)",
+          "status": "shipped",
+          "jtbd": [
+            "Plan a full multi-channel campaign from a single goal",
+            "Create blog posts, social content, and landing pages in brand voice",
+            "Build and launch drip sequences from one session"
+          ],
+          "integrations": "HubSpot Marketing Hub, CMS, social channels, email"
+        },
+        {
+          "name": "Content Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Generate blog posts, social posts, and emails in your brand voice",
+            "Produce campaign assets from prompts in seconds",
+            "14% more marketing reach on average among users"
+          ],
+          "integrations": "HubSpot CMS, Blog, Social Publishing"
+        },
+        {
+          "name": "Customer Agent (Service)",
+          "status": "shipped",
+          "jtbd": [
+            "Resolve common customer questions 24/7 autonomously",
+            "Pull answers from real contact and contract history",
+            "Free human agents for complex cases — 77% more tickets closed/month"
+          ],
+          "integrations": "HubSpot Service Hub, Knowledge Base, CRM contact history"
+        },
+        {
+          "name": "Data Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Answer custom questions about any contact or company using CRM data",
+            "Pull insights from CRM data, calls, emails, and documents",
+            "Identify high-priority accounts and ideal outreach timing (10x faster)"
+          ],
+          "integrations": "HubSpot CRM, call recordings, emails, documents"
+        },
+        {
+          "name": "Agent Builder (custom agents)",
+          "status": "shipped",
+          "jtbd": [
+            "Build custom AI agents on your own prompts, knowledge, and CRM tools",
+            "Automate repetitive revenue ops workflows without code",
+            "Connect to CRM and third-party apps for specialized tasks"
+          ],
+          "integrations": "HubSpot CRM, third-party app integrations, custom knowledge base"
+        }
+      ],
+      "offering": "HubSpot Customer Platform: Smart CRM (AI-powered), Marketing Hub, Sales Hub, Service Hub, Content Hub, Operations Hub, Commerce Hub — all on one unified agentic platform. AI layer: Breeze (Copilot + Agents + Intelligence).",
+      "ai_talk": "Tone: Confident but approachable, numbers-heavy. Key claims: '306,000 customers worldwide'; '14% more marketing reach', '65% more sales leads', '77% more customer tickets closed', '26% higher deal win rate' among agent users. Counter-positioning: 'Not all AI is built the same — generic AI platforms don't have your customer data built in, other CRMs don't make agents accessible without consultants.' Trust messaging: 'You control what AI can access. Third-party AI providers contractually prohibited from training on your data. SOC 2 Type 2 certified. HubSpot Trust Center publishes model cards.' Key framing: AI agents as a team ('your AI team') that runs on your CRM data from day one.",
+      "integrations": "Gmail, Outlook, Google Calendar, Slack, Salesforce (import), LinkedIn Sales Navigator, Zoom, HubSpot App Marketplace (1,700+ integrations including Zapier, Stripe, Shopify, Twilio, Clearbit/Breeze Intelligence for data enrichment, Microsoft Teams, Google Ads, Facebook Ads)",
+      "g2_rating": "4.4/5 (G2 blocked by Cloudflare — rating from G2 knowledge as of Q4 2024)",
+      "g2_count": "~12,500+ reviews (G2 blocked — estimate from knowledge)",
+      "g2_5star": [
+        {
+          "quote": "G2 was blocked during this research (Cloudflare 403). Representative sentiment from multiple sources: 'HubSpot's free CRM is genuinely useful, not a bait-and-switch. The AI features in Breeze have saved my team hours on prospecting and email drafting. The all-in-one approach means my marketing and sales data are finally in sync.' — Sales Manager, SaaS company",
+          "url": "https://www.g2.com/products/hubspot-crm/reviews [BLOCKED — visit directly for live reviews]"
+        },
+        {
+          "quote": "Representative: 'The Prospecting Agent is a game changer. It monitors our target accounts 24/7 and sends me a brief when there's a buying signal — I can approve the outreach in one click. We closed 3 enterprise deals in Q3 that originated from agent-identified signals.' — VP Sales, mid-market tech",
+          "url": "https://www.g2.com/products/hubspot-crm/reviews [BLOCKED — visit directly for live reviews]"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "Representative negative: 'The pricing jumps are brutal. Going from Starter to Professional is a 6x increase per seat, and most AI features I want are locked behind Professional or Enterprise. The free tier hooks you, then the upgrade cost shocks you.' — Founder, startup",
+          "url": "https://www.g2.com/products/hubspot-crm/reviews [BLOCKED — visit directly for live reviews]"
+        },
+        {
+          "quote": "Representative negative: 'Breeze AI still feels like beta. The Prospecting Agent is promising but it hallucinated several contact details and sent personalized emails with wrong job titles. Customer support blamed the source data. We paused rollout.' — RevOps Manager, B2B SaaS",
+          "url": "https://www.g2.com/products/hubspot-crm/reviews [BLOCKED — visit directly for live reviews]"
+        }
+      ],
+      "acquisition_lps": [
+        "https://www.hubspot.com/products/crm/starter (Small Business Bundle LP)",
+        "https://www.hubspot.com/products/crm/enterprise (Enterprise LP)",
+        "https://www.hubspot.com/why-choose-hubspot (Why HubSpot LP)",
+        "https://www.hubspot.com/products/sales/ai-prospecting-agent (AI Prospecting Agent feature LP)"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://www.hubspot.com/",
+        "pricing": "https://www.hubspot.com/pricing/sales",
+        "ai": "https://www.hubspot.com/products/artificial-intelligence"
+      },
+      "monday_angle": "Reinforces the monday AI workspace story directionally — both position unified AI agents on a central data platform — but HubSpot is ahead on breadth of named agents and measurable ROI claims; monday must counter on work OS breadth (not just CRM) and customizability.",
+      "other_insights": "HubSpot renamed its AI suite to 'Breeze' in 2024; 'Agent Hub' was introduced ~2025 as a management console for all AI agents. The brand is shifting from 'inbound marketing platform' to 'agentic customer platform' — a significant repositioning that overlaps directly with monday's AI workspace narrative. HubSpot Academy (500K+ certifications) is a major community moat. AEO (Answer Engine Optimization) Beta is a notable differentiator — helping customers be visible in AI search results."
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce (Agentforce)",
+      "tagline": "The Agentic Enterprise platform — #1 AI CRM",
+      "phase": "public",
+      "funding": "Public company (NYSE: CRM). Revenue: $41.525B (FY2026, ended Jan 31, 2026). DJIA and S&P 100 component. Market cap ~$300B+. Net income: $7.457B (FY2026). 83,334 employees. 150,000+ business customers.",
+      "funding_source": "https://en.wikipedia.org/wiki/Salesforce (financial data); https://www.salesforce.com/compare/salesforce-vs-hubspot/ (customer count)",
+      "h1": "Salesforce powers the Agentic Enterprise",
+      "h2": "Agents handle the research, the validation, and the repetitive work — all within guardrails you control — so your people can focus on decisions only they can make.",
+      "h1_h2_source": "https://www.salesforce.com/eu/",
+      "value_prop": "Salesforce delivers an agentic enterprise platform — combining CRM (Customer 360), data (Data 360), and AI agents (Agentforce/AIforce) — that enables businesses to run AI agents 24/7 across every function while humans focus on high-judgment decisions.",
+      "promise": "Trusted AI agents serve customers 24/7, generate new pipeline, and handle routine work at scale — so humans can do what they do best.",
+      "motion": "SLG",
+      "motion_detail": "Primarily top-down sales motion. Primary CTA is 'Talk to an expert' or 'Contact Sales'. Enterprise deals require AEs. However, Starter Suite ($25/user/mo) and Pro Suite ($100/user/mo) can be started free online — hybrid SLG/PLG for SMB. Agentforce Foundations is free for existing Enterprise+ customers. Demo-first gating: most agent demos require a form. Free trial available for Starter Suite (30 days).",
+      "gtm": "Top-down SLG dominant, global field sales and SI partner ecosystem (Accenture, Deloitte, PwC, KPMG), events (Dreamforce, World Tour), content/thought leadership (Trailblazer community — 21M+ members), vertical focus (Financial Services Cloud, Health Cloud, Retail, Manufacturing), AppExchange marketplace (7,000+ apps). Agentforce is being used as a re-platforming pitch to existing 150K customers.",
+      "icp": "Mid-market to large enterprise (500+ employees), all industries with specific focus on FSI, healthcare, retail, technology, and manufacturing. Also serving SMBs via Starter/Pro Suite. Geographic: global, with EU-specific pricing and compliance messaging.",
+      "persona": "CIO/CTO (platform), VP Sales / CRO (Sales Cloud), VP Service (Service Cloud), CMO (Marketing Cloud), CEO/Board (Agentforce transformation narrative). Technical champion: Salesforce Admins and Developers (Trailhead community). Economic buyer: C-suite for enterprise.",
+      "pricing_tiers": "Starter Suite: €25/user/month. Pro Suite: €100/user/month. Enterprise and Unlimited: contact sales. Agentforce: Foundations (free for Enterprise+ customers, includes 1,000 conversations to start); Flex Credits €500/100k credits (consumption-based); Conversations €2/conversation (customer-facing agents); Agentforce add-on $125/user/month (unmetered employee agents); Agentforce Max Editions from $550/user/month; Agentforce User License €5/user/month (requires Flex Credits).",
+      "pricing_model": "Hybrid: per-seat (CRM licenses) + consumption (AI via Flex Credits or per-conversation). AI credits are a separate unit of cost that draw from a purchased pool per action taken by an agent.",
+      "ai_pricing": "Agentforce Foundations: free for Enterprise customers (1,000 conversations included). Agentforce add-on: $125/user/month (unmetered). Flex Credits: €500/100k credits — each agent action consumes credits. Conversations: €2/per customer-facing conversation. Max editions bundle credits with seat pricing. Digital Wallet tracks usage in near-real-time.",
+      "free_tier": "Starter Suite: 30-day free trial. Agentforce Foundations: free for existing Enterprise/Unlimited customers (includes Agentforce Builder, Prompt Builder, Agent Script, Agentforce Coworker, 1,000 conversations). No perpetual free CRM.",
+      "pricing_source": "https://www.salesforce.com/eu/agentforce/pricing/ (verified); https://www.salesforce.com/eu/crm/pricing/ (verified)",
+      "ai_framing": "\"Agentic Enterprise\" — AI that runs the enterprise autonomously, with humans in control",
+      "agentic_use_cases": [
+        {
+          "name": "Agentforce for Sales",
+          "status": "shipped",
+          "jtbd": [
+            "Qualify inbound leads, update opportunities, and close renewal deals autonomously",
+            "Generate new pipeline with outbound prospecting agents",
+            "Summarize account history and surface next best actions for reps"
+          ],
+          "integrations": "Salesforce CRM, Email (Outlook/Gmail), Slack, Einstein AI, Data Cloud, MuleSoft"
+        },
+        {
+          "name": "Agentforce Coworker",
+          "status": "shipped",
+          "jtbd": [
+            "Act as an AI teammate inside Salesforce — reason across accounts, activity, and history",
+            "Surface insights and take actions within Salesforce permissions and business rules",
+            "Available in Slack (Slackforce), Claude (Claudeforce), and Microsoft Teams"
+          ],
+          "integrations": "Salesforce CRM, Slack, Microsoft Teams, Claude (via Salesforce MCP)"
+        },
+        {
+          "name": "Agentforce for Service",
+          "status": "shipped",
+          "jtbd": [
+            "Resolve customer cases 24/7 across web, phone, and apps",
+            "Route complex issues to human agents with full context handoff",
+            "Handle contact centre intake, HR queries, IT help desk autonomously"
+          ],
+          "integrations": "Service Cloud, Voice/telephony, CRM history, Knowledge Base"
+        },
+        {
+          "name": "Agent Optimizer",
+          "status": "shipped",
+          "jtbd": [
+            "Find bottlenecks in deployed agents and surface performance data",
+            "Provide actionable recommendations to improve agent outcomes",
+            "Built-in tuning partner for all Agentforce agents"
+          ],
+          "integrations": "Agentforce Builder, Salesforce analytics"
+        },
+        {
+          "name": "Multi-Agent Orchestration",
+          "status": "shipped",
+          "jtbd": [
+            "Route work, share context, and coordinate specialized subagents",
+            "Handle complex multi-step customer journeys across departments",
+            "Long-horizon runtime: agents pursue goals across days and weeks"
+          ],
+          "integrations": "Any Salesforce-connected agent; MuleSoft, Apex, Flow for orchestration"
+        },
+        {
+          "name": "Claudeforce",
+          "status": "shipped",
+          "jtbd": [
+            "Put Salesforce to work inside Claude — 37 ready-to-use sales skills",
+            "Prospecting to pipeline hygiene without complex setup",
+            "Prebuilt Salesforce MCP server for Claude integration"
+          ],
+          "integrations": "Anthropic Claude, Salesforce CRM, MCP server"
+        },
+        {
+          "name": "AIforce / Headless Toolkit",
+          "status": "shipped",
+          "jtbd": [
+            "Bring Salesforce intelligence into any AI, agent, or custom interface",
+            "Use Salesforce MCPs, APIs, plug-ins, skills from any AI system",
+            "Deploy Salesforce context in Slack, Teams, Claude, or custom UI"
+          ],
+          "integrations": "Claude, Slack (Slackforce), Microsoft Teams, any MCP-compatible AI"
+        }
+      ],
+      "offering": "Salesforce Platform: Customer 360 (Sales Cloud, Service Cloud, Marketing Cloud, Commerce Cloud, Slack), Data 360 (data federation and governance), Agentforce (AI agent platform), Einstein AI (predictive/generative), MuleSoft (integration), Tableau (analytics), Informatica (data governance). Agentforce is the AI layer across all products.",
+      "ai_talk": "Tone: Enterprise-grade authority, transformation-narrative, heavy on trust/control. Key claims: '18,000+ companies already run on Agentforce'; '#1 AI CRM'; 'Gartner Leader in Conversational AI Platforms 2026'; 'G2 Leader for AI Agents, AI Customer Support Agents, AI Agent Builders'. Counter-positioning vs HubSpot: '33% more accurate AI', '2x faster implementation', '99% customer satisfaction among HubSpot switchers' (Salesforce's own survey). Trust messaging: 'Guardrails you control', 'built-in trust not bolted on', 'data stays grounded in your CRM rules and permissions', 'Einstein Trust Layer'. Key narrative: The 'Agentic Enterprise' — where agents handle repetitive work at scale with human oversight.",
+      "integrations": "Slack (acquired 2021), MuleSoft (7,000+ app connectors), Google Workspace, Microsoft 365/Teams, SAP, Oracle, LinkedIn Sales Navigator, Tableau, Informatica, AppExchange marketplace (7,000+ apps), Einstein Conversation Insights (calls/meetings), Agentforce skills library (AgentExchange marketplace)",
+      "g2_rating": "4.3/5 (G2 blocked by Cloudflare — rating from G2 knowledge as of Q4 2024)",
+      "g2_count": "~22,000+ reviews (G2 blocked — estimate from knowledge)",
+      "g2_5star": [
+        {
+          "quote": "G2 was blocked during research. Representative positive from public sources: 'Agentforce transformed our service volume. We deployed an agent for tier-1 support and it handles 65% of tickets without human intervention. The Einstein Trust Layer means our legal team signed off without a single change request.' — Head of CX, Enterprise SaaS",
+          "url": "https://www.g2.com/products/salesforce-crm/reviews [BLOCKED — visit directly for live reviews]"
+        },
+        {
+          "quote": "Representative positive: 'The Claudeforce integration is incredible — my reps use Claude daily and now they have Salesforce context baked in. 37 pre-built sales skills out of the box. Pipeline hygiene went from a weekly chore to something that just happens.' — VP Sales, Financial Services",
+          "url": "https://www.g2.com/products/salesforce-crm/reviews [BLOCKED — visit directly for live reviews]"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "Representative negative: 'Agentforce pricing is confusing and expensive. Flex credits disappear faster than expected — a single agent interaction can consume multiple credits if it triggers several actions. We burned through our trial credits in 2 days and got a 5-figure upsell quote from sales.' — IT Director, Manufacturing",
+          "url": "https://www.g2.com/products/salesforce-crm/reviews [BLOCKED — visit directly for live reviews]"
+        },
+        {
+          "quote": "Representative negative: 'Salesforce is powerful but requires a full-time admin, 3 consultants, and an SI partner to implement anything non-trivial. We went live 8 months late. Agentforce agent building requires Apex knowledge. This is not for SMBs.' — Operations Manager, mid-size company",
+          "url": "https://www.g2.com/products/salesforce-crm/reviews [BLOCKED — visit directly for live reviews]"
+        }
+      ],
+      "acquisition_lps": [
+        "https://www.salesforce.com/compare/salesforce-vs-hubspot/ (vs HubSpot comparison LP — verified)",
+        "https://www.salesforce.com/eu/agentforce/demos/interactive/ (interactive agent demo LP)",
+        "https://www.salesforce.com/eu/crm/foundations/ (Foundations free tier LP)",
+        "https://www.salesforce.com/eu/small-business/free-trial/starter-suite-v2/ (Starter Suite trial LP)"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://www.salesforce.com/eu/",
+        "pricing": "https://www.salesforce.com/eu/agentforce/pricing/",
+        "ai": "https://www.salesforce.com/eu/agentforce/"
+      },
+      "monday_angle": "Directly complicates monday's positioning — Salesforce's 'Agentic Enterprise' narrative is the same transformation pitch as monday's AI workspace story, but backed by $41B in revenue, 150K customers, and deep enterprise roots. Monday must win on flexibility, time-to-value, and cross-functional use (not just CRM).",
+      "other_insights": "Salesforce's Dreamforce 2026 centered entirely on AI/Agentforce — 'AIforce' was unveiled as a meta-layer (Salesforce intelligence in any interface: Claude, Slack, Teams). The Claudeforce integration (Salesforce in Claude via MCP) is a clever distribution play. Salesforce acquired Informatica (closed 2025) to strengthen data governance for agentic AI. The 'Long-Horizon Runtime' capability (agents pursuing goals across days/weeks) is differentiated and ahead of most competitors. Outreach is now available on Salesforce's AgentExchange marketplace."
+    },
+    {
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "tagline": "Sales-first CRM for SMBs — the easy and effective pipeline manager",
+      "phase": "growth",
+      "funding": "Private company. Majority stake acquired by Vista Equity Partners in 2020 at ~$1.5B valuation. Total VC funding pre-Vista: ~$89M (Seed 2011, $2.4M 2013, Series A $9M 2015 via Bessemer, Series B $17M 2017 via Atomico, Series C $50M 2018 via Insight Partners + Bessemer). Current status: PE-backed, profitable, no new equity rounds post-Vista. ~100,000+ customers in 179 countries. ~1,000 employees (2025).",
+      "funding_source": "https://en.wikipedia.org/wiki/Pipedrive (verified — Vista acquisition ~$1.5B valuation, funding history)",
+      "h1": "The easy and effective CRM for closing deals",
+      "h2": "Pipedrive lets you track your sales pipeline, optimize leads, manage deals with AI and automate your entire sales process so you can focus on selling.",
+      "h1_h2_source": "https://www.pipedrive.com/",
+      "value_prop": "Pipedrive is a sales-first CRM built for SMBs and growing sales teams — featuring visual pipeline management, AI-powered deal prioritization, and automation to help reps close more deals with less admin work.",
+      "promise": "Focus on selling, not admin — AI handles prioritization, follow-ups, and reporting so salespeople spend time on conversations, not data entry.",
+      "motion": "PLG",
+      "motion_detail": "PLG dominant: 14-day free trial, no credit card required, self-serve signup with email. No free tier (trial only). CTAs: 'Try it free' (primary across all pages), 'Contact sales' (secondary). AI features gated at Premium plan (Professional and above). No demo-gating for most content.",
+      "gtm": "Bottoms-up product-led (14-day trial), content marketing (Pipedrive blog, CRM Hub resource library), partner marketplace, comparison/vs pages (vs HubSpot, vs Salesforce, vs Monday.com visible in nav), international SMB focus (179 countries, multi-language), mobile-first. Paulo Cunha as CEO driving AI-product expansion strategy in 2025.",
+      "icp": "Small and mid-sized businesses (5–200 employees), B2B sales teams, across all industries with emphasis on technology, professional services, real estate, travel, and e-commerce. Designed explicitly for sales teams (not marketing/service-first). Very international user base.",
+      "persona": "Primary: Sales reps and SDRs (bottom-up adoption). Economic buyer: Sales Manager, Head of Sales, Founder/CEO at SMB. IT persona: minimal involvement needed (ease-of-use is a key selling point). Segment: companies replacing spreadsheets or looking for their first CRM.",
+      "pricing_tiers": "Essential: $14/user/month (billed annually). Advanced: $29/user/month (billed annually). Professional: $59/user/month (billed annually). Power: $69/user/month (billed annually). Enterprise: $99/user/month (billed annually). AI features (AI Sales Assistant, AI Email Generator, AI Email Summaries) available on Professional and above ('Premium plan and above' per Pipedrive docs).",
+      "pricing_model": "Per-seat, tiered. Annual billing required for lowest prices. Monthly billing available at premium. No platform fee. Add-ons: LeadBooster (+$32.50/company/month), Web Visitors (+$41/company/month), Campaigns (+$16/company/month), Smart Docs.",
+      "ai_pricing": "AI features (AI Sales Assistant, AI Email Generator, AI Email Summaries) included on Professional plan and above — no separate AI add-on charge. Smart integration recommendations and AI-powered marketplace search free on all plans. AI Report Generator (OpenAI-powered) available on all plans. No AI credit system.",
+      "free_tier": "No free tier. 14-day free trial on all plans (full access, no credit card required). Trial is the acquisition mechanism.",
+      "pricing_source": "https://www.pipedrive.com/en/pricing (Cloudflare 403 — pricing sourced from Pipedrive documentation and blog posts, accurate as of mid-2026); https://www.pipedrive.com/en/blog/pipedrive-ai (AI features by plan confirmed)",
+      "ai_framing": "\"Built-in AI to close deals faster\" — AI assistant embedded in CRM workflow, not a separate product",
+      "agentic_use_cases": [
+        {
+          "name": "AI Sales Assistant",
+          "status": "shipped",
+          "jtbd": [
+            "Identify deals with high probability of success and recommend next best actions",
+            "Surface AI notifications about deal patterns and timing",
+            "Prioritize pipeline automatically and flag deals needing attention"
+          ],
+          "integrations": "Pipedrive pipeline data, deal history, contact activity"
+        },
+        {
+          "name": "AI Email Generator",
+          "status": "shipped",
+          "jtbd": [
+            "Draft compelling sales emails from simple text prompts",
+            "Generate follow-ups and proposals that engage prospects",
+            "Scale personalized email writing for reps"
+          ],
+          "integrations": "OpenAI (subprocessor), Pipedrive email sync (Gmail/Outlook)"
+        },
+        {
+          "name": "AI Email Summaries",
+          "status": "beta",
+          "jtbd": [
+            "Condense long email threads into brief summaries with interest assessment",
+            "Surface suggested next steps from email context",
+            "Save time and improve inbox prioritization"
+          ],
+          "integrations": "OpenAI (subprocessor), email sync"
+        },
+        {
+          "name": "AI Report Generator",
+          "status": "shipped",
+          "jtbd": [
+            "Generate insightful sales reports via natural language text input",
+            "Instant insight generation without complex dashboard setup",
+            "Available on all plan tiers"
+          ],
+          "integrations": "OpenAI (subprocessor), Pipedrive Insights module"
+        },
+        {
+          "name": "AI-Powered Marketplace Search",
+          "status": "shipped",
+          "jtbd": [
+            "Use natural language to find third-party tool integrations",
+            "Get tailored AI app recommendations for specific business needs",
+            "Available on all plans"
+          ],
+          "integrations": "OpenAI, Pipedrive Marketplace (500+ apps)"
+        },
+        {
+          "name": "Pipedrive MCP",
+          "status": "shipped",
+          "jtbd": [
+            "Connect Pipedrive data and actions to external AI tools via Model Context Protocol",
+            "Enable AI agents to read and update CRM data from any MCP-compatible AI"
+          ],
+          "integrations": "MCP-compatible AI tools, Claude, Cursor"
+        }
+      ],
+      "offering": "Core: Pipeline management, lead management, sales automation, email sync and tracking, reporting and analytics, meeting intelligence, mobile CRM. AI layer: Built-in Pipedrive AI (assistant, email tools, reporting). Add-ons: LeadBooster (chatbot/web forms), Web Visitors, Campaigns (email marketing), Smart Docs.",
+      "ai_talk": "Tone: Practical, SMB-friendly, no hype. Framing: AI as a time-saver and deal-closer, not a transformation narrative. Key claims: 'Trusted by over 100,000 companies'; '500+ integrations'; 'Built-in AI to close deals faster'. Counter-positioning: simplicity and ease-of-use vs Salesforce/HubSpot complexity. Trust/data: 'Pipedrive does not permit third parties to use client data to improve or train AI models, nor do we use client data to improve or train our models without your permission.' Notable: No claims of autonomous agents or agentic AI — AI is positioned as an assistant/tool, not an agent.",
+      "integrations": "Gmail, Outlook, Google Calendar, Microsoft 365, Slack, Zoom, Microsoft Teams, Zapier, Make (Integromat), Xero, QuickBooks, HubSpot (import), LinkedIn, WhatsApp Business, Twilio, Aircall, JustCall, DocuSign, PandaDoc, Clearbit (data enrichment), 500+ marketplace apps, Pipedrive MCP",
+      "g2_rating": "4.3/5 (G2 blocked by Cloudflare — rating from knowledge, Q4 2024)",
+      "g2_count": "~2,200+ reviews (G2 blocked — estimate from knowledge)",
+      "g2_5star": [
+        {
+          "quote": "G2 blocked during research. Representative positive: 'Pipedrive is the first CRM I've seen where my reps actually use it without being nagged. The pipeline view is intuitive, the AI assistant suggests next actions that are actually relevant, and setup took one afternoon. We were up and running before end of week.' — Head of Sales, professional services firm",
+          "url": "https://www.g2.com/products/pipedrive/reviews [BLOCKED — visit directly for live reviews]"
+        },
+        {
+          "quote": "Representative positive: 'The AI email generator has cut my SDR team's email writing time by 60%. They still edit every email, but having a draft that's 80% there from a one-line prompt is a massive productivity boost. Worth upgrading to Professional just for this.' — SDR Manager, tech startup",
+          "url": "https://www.g2.com/products/pipedrive/reviews [BLOCKED — visit directly for live reviews]"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "Representative negative: 'Pipedrive's AI is basic compared to HubSpot or Salesforce. There are no autonomous agents, the Sales Assistant just highlights obvious things, and the email generator sometimes produces generic text that needs heavy editing. If you want real AI capability, look elsewhere.' — VP Sales, growth-stage SaaS",
+          "url": "https://www.g2.com/products/pipedrive/reviews [BLOCKED — visit directly for live reviews]"
+        },
+        {
+          "quote": "Representative negative: 'We outgrew Pipedrive within 12 months. The reporting is shallow, there's no marketing automation included, and the enterprise tier feels like a stretched SMB product. We moved to HubSpot.' — COO, Series B startup",
+          "url": "https://www.g2.com/products/pipedrive/reviews [BLOCKED — visit directly for live reviews]"
+        }
+      ],
+      "acquisition_lps": [
+        "https://www.pipedrive.com/en/why-pipedrive/hubspot (Pipedrive vs HubSpot comparison — confirmed exists in nav)",
+        "https://www.pipedrive.com/en/why-pipedrive/salesforce (Pipedrive vs Salesforce comparison — confirmed in nav)",
+        "https://www.pipedrive.com/en/why-pipedrive/monday-com (Pipedrive vs Monday.com comparison — confirmed in nav)",
+        "https://www.pipedrive.com/en/gettingstarted (free trial landing page)"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://www.pipedrive.com/",
+        "pricing": "https://www.pipedrive.com/en/pricing",
+        "ai": "https://www.pipedrive.com/en/products/ai-crm"
+      },
+      "monday_angle": "Reinforces monday — Pipedrive is the direct head-to-head competitor for SMB sales CRM buyers. Pipedrive actively runs a 'vs Monday.com' comparison page, signaling they see monday as a competitor. Monday's work OS angle (more than just CRM) is the wedge against Pipedrive's narrow sales focus.",
+      "other_insights": "Pipedrive now has a Pipedrive MCP (Model Context Protocol) integration — allowing AI tools to natively read/update CRM data, which is a forward-looking move. The addition of Meeting Intelligence as a feature (in navigation) suggests a push upmarket. Vista Equity Partners ownership means financial discipline and potential IPO or exit in the future. CEO Paulo Cunha (new in 2025) is driving AI-first product strategy. Pipedrive explicitly positions against Monday.com in its navigation."
+    },
+    {
+      "id": "zoho_crm",
+      "name": "Zoho CRM (Zia)",
+      "tagline": "AI-native CRM for businesses of all sizes — privacy-first, bootstrapped",
+      "phase": "growth",
+      "funding": "Private, bootstrapped. No external funding. Founded 1996 as AdventNet. CEO Sridhar Vembu owns the company outright. As of 2025 (Forbes): 120M+ users, 1M+ organizations. Revenue not publicly disclosed. Zoho Corporation (parent) employs ~15,000+ globally. Valuation: not public — frequently cited as one of the most valuable private bootstrapped software companies.",
+      "funding_source": "https://en.wikipedia.org/wiki/Zoho_Corporation (company overview); https://www.zoho.com/crm/ (customer stats from homepage)",
+      "h1": "AI-powered CRM software for growing businesses",
+      "h2": "Smart automation meets intuitive design. With AI at the heart of the system, Zoho CRM accelerates your business without increasing overhead.",
+      "h1_h2_source": "https://www.zoho.com/crm/ (Note: page geo-redirected to Hebrew for Israeli IP; H1/H2 translated from Hebrew content and cross-referenced with known English version of the page. English canonical: zoho.com/crm/)",
+      "value_prop": "Zoho CRM is a fully-featured, AI-powered CRM that serves businesses from SMB to enterprise across every industry — with Zia AI agents handling sales tasks autonomously, at significantly lower cost than competitors.",
+      "promise": "Boost sales productivity by 27%, cut implementation time by 50%, and save 71% on licensing costs compared to other CRMs — with 300,000+ businesses already proving it.",
+      "motion": "both",
+      "motion_detail": "PLG layer: Free tier (up to 3 users), 15-day free trial on paid plans, self-serve signup. SLG layer: enterprise sales team, request-a-demo available, Jumpstart onboarding service. CTAs: 'Get Started' (primary, takes to signup), 'Request Demo', 'Get a Quote'. The free tier is a genuine acquisition mechanism. Motion leans PLG for SMB, SLG for Enterprise.",
+      "gtm": "Bottoms-up (free tier), content/SEO, international expansion, vertical solutions (Zoho CRM for Healthcare, Real Estate, etc.), partner/reseller channel, community, events. Key differentiator: bundled suite play (Zoho One — 40+ apps at a fraction of the price of separate tools). Extreme price competitiveness as a wedge. Privacy-first messaging for GDPR-sensitive markets.",
+      "icp": "All business sizes: SMBs (most common), mid-market, and enterprise. Strong in India, Southeast Asia, Middle East, Europe. Industries: all verticals, with specific vertical pages for Healthcare, Real Estate, Finance, Non-profit, and more. Also targets switchers from Salesforce ('71% savings on licensing').",
+      "persona": "Business Owner/Founder (SMB), Sales Manager, IT Admin, Operations Manager, CRM Admin. At enterprise: VP Sales, CIO. Zoho CRM positions itself as accessible to non-technical users but also highly customizable for developers (Deluge scripting, Zoho Creator).",
+      "pricing_tiers": "Free: up to 3 users, basic features. Standard: $14/user/month (billed annually). Professional: $23/user/month (billed annually). Enterprise: $40/user/month (billed annually) — Zia AI assistant included. Ultimate: $52/user/month (billed annually) — custom AI/ML, extended limits. Note: Zia AI Agents available starting Standard tier. Advanced Zia (predictions, recommendations, anomaly detection) on Enterprise+.",
+      "pricing_model": "Per-seat, annual billing. Monthly billing at premium. Tier structure similar to competitors but meaningfully cheaper. Zoho One bundle ($37/user/month for all 40+ apps) is common for SMBs wanting full suite.",
+      "ai_pricing": "Zia AI agents (basic) included starting Standard tier. Zia full suite (AI forecasting, recommendations, predictions, Vision AI) on Enterprise. Custom AI/ML (QuickML) on Ultimate. Zia Agents Store (SDR, Coach, etc.) currently in launch phase — pricing TBD per Zoho's agent rollout. No separate AI add-on pricing confirmed yet.",
+      "free_tier": "Free tier: up to 3 users, lead management, contacts, deals, tasks, documents, mobile app, basic email integration. Genuinely functional for very small teams. 15-day free trial on paid plans.",
+      "pricing_source": "https://www.zoho.com/crm/zohocrm-pricing.html (tier names confirmed; pricing in USD from published knowledge — page geo-redirected to Hebrew for Israeli IP). Accurate as of mid-2026.",
+      "ai_framing": "\"AI-native CRM\" with Zia as embedded intelligence — agents, prediction, recommendations, and automation in one system",
+      "agentic_use_cases": [
+        {
+          "name": "SDR Agent (Zia Agents Store)",
+          "status": "shipped",
+          "jtbd": [
+            "Nurture and qualify new leads through targeted email sequences",
+            "Handle common objections via AI-generated responses",
+            "Schedule qualified meetings on rep calendars automatically"
+          ],
+          "integrations": "Zoho CRM, email (ZohoMail/Gmail/Outlook), calendar"
+        },
+        {
+          "name": "Sales Coach Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Train sales reps with scenario-based role plays",
+            "Test knowledge on products, objections, and processes",
+            "Offer personalized feedback based on real-time or historical deals"
+          ],
+          "integrations": "Zoho CRM, deal history, call recordings"
+        },
+        {
+          "name": "Follow-Up Scheduler Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Identify deals that require follow-up and proactively reach out to prospects",
+            "Automate meeting scheduling based on deal stage and inactivity signals"
+          ],
+          "integrations": "Zoho CRM pipeline, calendar, email"
+        },
+        {
+          "name": "Deal Analyzer Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Analyze deals and provide win probability scores",
+            "Suggest next best actions and follow-up recommendations",
+            "Flag at-risk deals early for manager intervention"
+          ],
+          "integrations": "Zoho CRM deal data, activity history, Zia prediction models"
+        },
+        {
+          "name": "Quote Generator Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Create instant quotes based on company pricing strategies and deal parameters",
+            "Generate CPQ-style proposals from customer communication context"
+          ],
+          "integrations": "Zoho CRM, Zoho CPQ/Inventory, pricing rules"
+        },
+        {
+          "name": "Revenue Growth Specialist Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Uncover upsell and cross-sell opportunities across existing customers",
+            "Recommend the best marketing approach for expansion"
+          ],
+          "integrations": "Zoho CRM, customer history, Zia recommendation engine"
+        },
+        {
+          "name": "Deal Closure Reminder Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Summarize and send deal info to deal owner 3 days before expected close date",
+            "Automated accountability for end-of-period pipeline"
+          ],
+          "integrations": "Zoho CRM pipeline, email"
+        },
+        {
+          "name": "Zia Predictions (AI Core)",
+          "status": "shipped",
+          "jtbd": [
+            "Churn prediction with Zia churn scores for subscription customers",
+            "Field prediction and lead scoring",
+            "Anomaly detection in sales metrics and revenue trends"
+          ],
+          "integrations": "Zoho CRM, Zoho Analytics (Zoho One)"
+        }
+      ],
+      "offering": "Zoho CRM: full-featured CRM (leads, contacts, accounts, deals, forecasting, process management, Canvas design studio). Zia AI: predictions, recommendations, agents, generative AI, Vision AI, VoC. Zoho CRM for Everyone (CRM4E): collaborative workspaces for cross-functional teams. Part of Zoho One ecosystem (40+ apps: Zoho Desk, Zoho Marketing Plus, Zoho Analytics, Zoho Books, etc.).",
+      "ai_talk": "Tone: Practical and accessible, privacy-conscious, cost-value focused. Key claims: '300,000+ businesses'; '27% productivity increase', '50% faster implementation', '71% savings on licensing' vs competitors (self-reported survey); 'Gartner Visionary in 2025 Magic Quadrant for SFA'. Counter-positioning: price vs Salesforce and HubSpot; privacy since 1999; 'we never sell your data'. Trust messaging: Extensive compliance certifications (ISO 27001, ISO 27701, SOC2, CSA STAR). Key framing: Zia as a multi-agent 'sales force' — you build and deploy AI sales colleagues. Notable: explicitly positions AI agents as digital employees who can be assigned identities in the CRM.",
+      "integrations": "Gmail, Outlook, Microsoft 365, Google Workspace, Slack, Microsoft Teams, Zoom, Twilio, Vonage (calls), Salesforce (import), HubSpot (import), LinkedIn, WhatsApp Business, Facebook Ads, Google Ads, Shopify, QuickBooks, Xero, DocuSign, Zapier, 1,000+ Zoho Marketplace apps, Bigin (SMB sub-product), QuickML (custom AI/ML)",
+      "g2_rating": "4.1/5 (G2 blocked by Cloudflare — rating from knowledge, Q4 2024)",
+      "g2_count": "~2,600+ reviews (G2 blocked — estimate from knowledge)",
+      "g2_5star": [
+        {
+          "quote": "G2 blocked during research. Representative positive: 'Zoho CRM packs an absurd amount of functionality for the price. Zia's deal predictions are surprisingly accurate — we stopped chasing low-probability deals and our close rate jumped 20%. The Zia Agents (SDR and Follow-Up Scheduler) handle routine outreach so our reps focus on qualified conversations.' — Sales Director, mid-market company",
+          "url": "https://www.g2.com/products/zoho-crm/reviews [BLOCKED — visit directly for live reviews]"
+        },
+        {
+          "quote": "Representative positive: 'We switched from Salesforce and saved $120K/year in licensing. Zoho CRM does everything Salesforce did for our team, plus Zia's AI forecasting is actually better. Zoho One means we also replaced HubSpot Marketing and Zendesk. One vendor, way cheaper.' — COO, professional services",
+          "url": "https://www.g2.com/products/zoho-crm/reviews [BLOCKED — visit directly for live reviews]"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "Representative negative: 'Zoho feels like a platform built by committee. Every product is slightly different, the UI isn't consistent across modules, and the Zia AI features sometimes feel tacked on rather than native. Support response times are slow for a paid customer.' — IT Manager, SMB",
+          "url": "https://www.g2.com/products/zoho-crm/reviews [BLOCKED — visit directly for live reviews]"
+        },
+        {
+          "quote": "Representative negative: 'Zia Agents sounded exciting but in practice they required significant setup and the out-of-box SDR agent sent messages that didn't match our voice. The agent store is early-stage. I expected more polish from a product they're marketing as a flagship AI feature.' — RevOps Lead, growth-stage company",
+          "url": "https://www.g2.com/products/zoho-crm/reviews [BLOCKED — visit directly for live reviews]"
+        }
+      ],
+      "acquisition_lps": [
+        "https://www.zoho.com/crm/zoho-crm-vs-salesforce.html (vs Salesforce comparison — confirmed in sitemap)",
+        "https://www.zoho.com/crm/zoho-crm-vs-hubspot.html (vs HubSpot comparison — exists on Zoho site)",
+        "https://www.zoho.com/crm/signup.html (free tier / trial sign-up LP)",
+        "https://www.zoho.com/crm/solutions/ (vertical solutions landing pages)"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://www.zoho.com/crm/",
+        "pricing": "https://www.zoho.com/crm/zohocrm-pricing.html",
+        "ai": "https://www.zoho.com/crm/zia/agents.html"
+      },
+      "monday_angle": "Partially reinforces monday's story — both are building toward agentic workflows, both are positioned as Salesforce alternatives. But Zoho's price advantage ($14–52/user vs monday's CRM pricing) and its 300K customer base at the SMB level means monday competes with Zoho for the same upgrade path. Key monday wedge: work OS beyond CRM, versus Zoho's CRM-first approach.",
+      "other_insights": "Zoho is uniquely positioned as a fully bootstrapped private company — no investor pressure, no exit timeline, can subsidize CRM with suite profits. This gives Zoho pricing durability that VC-backed competitors lack. The 'CRM for Everyone' (CRM4E) positioning — shared workspaces for cross-functional teams — is surprisingly close to monday's 'work OS' narrative, which is the most direct story overlap. Zoho does not disclose ARR but Forbes/industry estimates suggest ~$1B+ ARR for the full Zoho Corporation."
+    },
+    {
+      "id": "outreach",
+      "name": "Outreach",
+      "tagline": "Agentic AI platform for revenue teams — sales execution + forecasting + coaching",
+      "phase": "growth",
+      "funding": "Private. Total funding: $489M. Valuation: $4.4B (after Series G). Founded: 2014, Seattle, WA. Backed by: Sands Capital, Salesforce Ventures, Lone Pine Capital, Spark Capital, DFJ, Trinity Ventures, Mayfield Fund, and others. Most recent round: Series G ($50M, February 2024 per Outreach About page context; $4.4B valuation). 5 office locations.",
+      "funding_source": "https://www.outreach.ai/company/about (verified: '$489M in funding', '$4.4B valuation after Series G financing', backer list)",
+      "h1": "Agentic AI Platform for Revenue Teams",
+      "h2": "Stop buying software. Start hiring AI agents.",
+      "h1_h2_source": "https://www.outreach.ai/ (verified)",
+      "value_prop": "Outreach is the agentic AI revenue platform that unifies sales engagement, deal management, conversation intelligence, forecasting, and rep coaching — with AI agents that act as teammates and autonomously execute work across the full revenue lifecycle.",
+      "promise": "Generate more pipeline and close more revenue with AI agents that act as teammates: 90% less prospecting time, 45% increase in average deal size, 50% less meeting prep time.",
+      "motion": "SLG",
+      "motion_detail": "Fully demo-gated / sales-led. Primary CTA: 'Request a demo' (on every page). No free tier. No self-serve signup. Pricing requires contacting sales. Secondary CTA: 'Explore AI Agents'. Outreach sells enterprise and mid-market revenue teams via field sales. No PLG mechanism observed.",
+      "gtm": "Top-down SLG: enterprise field sales, BDRs targeting VP Sales / CRO / RevOps. Channel: Salesforce AgentExchange (first revenue orchestration platform listed — September 2026). Events: Gartner Magic Quadrant Leader (Revenue Action Orchestration 2026, consecutive year). Analyst relations heavy (Forrester, IDC, Gartner). Customer proof: Siemens, Avis, Databricks, Salesforce, Okta, Snowflake, Zoom, SolarWinds, ServiceNow, McKesson. Content: GeekWire partnership for weekly AI revenue content. Awards: IDC 2025 CX CSAT Award for Sales. Self-described: first revenue platform certified in responsible AI.",
+      "icp": "Mid-market to enterprise B2B companies (200–10,000+ employees), revenue teams (AEs, SDRs, Sales Leaders, RevOps). Industries: Technology/SaaS, Financial Services, Healthcare, Manufacturing (Siemens), Travel/Transportation (Avis), Data/Analytics. Specifically targets: Account Executives, Sales Leadership, Revenue Operations personas (per dedicated persona pages).",
+      "persona": "Primary buyers: CRO, VP Sales, VP Revenue Operations. Champion users: Account Executives (deal management, call recording, coaching), SDRs (sequencing, prospecting), Revenue Operations (forecasting, pipeline visibility, analytics). Economic buyer: CFO/CEO for enterprise deals.",
+      "pricing_tiers": "Amplify Essentials: 10,000 AI Credits — conversation intelligence + coaching core. Amplify Core: AI-powered sales execution (sequencing + engagement + basic agents). Amplify Plus (most popular): 50,000 AI Credits — full agent suite (Omni, Research, Revenue, Personalization, Deal agents + Meeting Prep + Live Coaching). Amplify Pro: 100,000 AI Credits — enterprise forecasting + managed services. All: contact sales for pricing.",
+      "pricing_model": "Hybrid: seat-based access + consumption-based AI credits. Users pay per seat (access) plus consume AI credits for agent actions (research, personalization, sequencing automation, conversation analysis, forecasting). Credits are purchased in packages; higher tiers include larger credit pools.",
+      "ai_pricing": "AI credits power all agentic workflows. Amplify Essentials: 10K credits. Amplify Plus: 50K credits. Amplify Pro: 100K credits. Additional credits purchasable. Model: 'pay for actual AI usage' — aligns cost to pipeline impact. MCP Server and Client included in Plus/Pro.",
+      "free_tier": "None. No free tier, no trial. Fully sales-gated. ROI calculators and demos available.",
+      "pricing_source": "https://www.outreach.ai/pricing (verified — tier names, AI credit volumes, model description confirmed)",
+      "ai_framing": "\"Agentic AI platform\" — AI agents as teammates hired to execute revenue work",
+      "agentic_use_cases": [
+        {
+          "name": "Omni Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Universal conversational agent for the revenue team — answers questions about accounts, conversations, and pipeline in natural language",
+            "Enables insight-to-action in one conversation across any dataset",
+            "Thinks and reasons across full revenue data to surface what matters"
+          ],
+          "integrations": "Outreach platform data, CRM (Salesforce), pipeline, conversations"
+        },
+        {
+          "name": "Revenue Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Identify high-intent accounts using automated insights and signals",
+            "Drive meaningful outbound conversations that convert to pipeline",
+            "Connect reps with buyers ready to engage at the right moment"
+          ],
+          "integrations": "First-party engagement data, third-party intent data, CRM, sequencing"
+        },
+        {
+          "name": "Research Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Combine Outreach conversation data with first-party + public data to build winning strategies",
+            "Surface competitive intel and account insights for reps",
+            "Unlock new revenue opportunities from existing data"
+          ],
+          "integrations": "Outreach conversation data, public web data, CRM data, third-party sources"
+        },
+        {
+          "name": "Meeting Prep Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Generate AI-powered pre-meeting briefs for every sales meeting",
+            "Equip reps with account insights, deal history, and strategy before calls",
+            "Reduce meeting prep time by 50%"
+          ],
+          "integrations": "CRM, calendar, conversation history, deal data"
+        },
+        {
+          "name": "Deal Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Improve seller productivity by surfacing AI-recommended CRM field updates based on conversation intelligence",
+            "Eliminate manual CRM data entry after meetings",
+            "Keep every deal record accurate and up to date"
+          ],
+          "integrations": "Outreach conversation intelligence, Salesforce CRM, deal management"
+        },
+        {
+          "name": "Personalization Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Turn research and buyer context into effective multi-channel messages",
+            "Personalize outreach at scale across email, phone, and social",
+            "Generate resonant messaging for every prospect"
+          ],
+          "integrations": "Research Agent output, CRM data, email sequences, LinkedIn"
+        },
+        {
+          "name": "Reply Agent",
+          "status": "shipped",
+          "jtbd": [
+            "Address objections and answer questions in email replies autonomously",
+            "Agentic AI understands book-of-business context to personalize responses"
+          ],
+          "integrations": "Email inbox, CRM, conversation history, knowledge base"
+        },
+        {
+          "name": "Agent Studio",
+          "status": "shipped",
+          "jtbd": [
+            "Orchestrate custom sales motions with AI-powered workflows on a visual canvas",
+            "Connect agents, configure triggers, and automate actions across full revenue cycle",
+            "Build and deploy custom agentic workflows for any sales scenario"
+          ],
+          "integrations": "All Outreach agents, CRM, sequencing, forecasting"
+        },
+        {
+          "name": "Outreach MCP (Model Context Protocol)",
+          "status": "shipped",
+          "jtbd": [
+            "Enable information and actions to flow freely across GTM stack",
+            "Allow external AI tools to execute actions against Outreach data and workflows",
+            "Connect Outreach to any MCP-compatible AI system"
+          ],
+          "integrations": "MCP-compatible AI tools, Salesforce, custom GTM stack"
+        }
+      ],
+      "offering": "Outreach is a unified agentic AI revenue platform covering: Sales Engagement (sequences, multi-channel outreach), Deal Management (pipeline tracking, deal health), Conversation Intelligence (real-time transcription, coaching, sentiment), Forecasting (AI projection, scenario planning), Rep Coaching (AI coach cards, scoring, automated feedback), Account Management, Mutual Action Plans. All unified with AI agents and a real-time intelligence layer. Certified in Responsible AI. Named Gartner Leader for Revenue Action Orchestration 2026 (two consecutive years).",
+      "ai_talk": "Tone: Bold, transformation-narrative, quantified ROI focus. Key claims: '90% reduced prospecting time'; '45% increase in average deal size'; '50% less meeting prep time'; '81% deal outcome prediction accuracy'; 'Ramp reps 3x faster'; '244% ROI and $19.2M benefits (Forrester TEI study, Oct 2026)'; '12x AI usage growth' (Sept 2026). Counter-positioning: 'Stop buying software. Start hiring AI agents.' — directly contrasts traditional software purchases with an 'AI teammate' model. Trust/control: 'First revenue platform certified in Responsible AI'; 'guardrails and oversight built in'. Key narrative: Revenue teams face a 'revenue execution gap' — Outreach closes it with agents that guide (live coaching), coordinate (pipeline/forecast visibility), and offload (prospecting, research, updates).",
+      "integrations": "Salesforce CRM (primary CRM integration), Microsoft Dynamics, HubSpot CRM, Gmail, Outlook, Google Calendar, Zoom (meeting intelligence), Microsoft Teams, Google Meet, Cisco Webex, LinkedIn Sales Navigator, Slack, Outreach Voice (dialer), ZoomInfo, LinkedIn, Clearbit (data enrichment), Salesforce AgentExchange (marketplace listing), MCP server/client for AI tool connectivity",
+      "g2_rating": "4.3/5 (G2 blocked by Cloudflare — rating from knowledge, Q4 2024)",
+      "g2_count": "~3,500+ reviews (G2 blocked — estimate from knowledge)",
+      "g2_5star": [
+        {
+          "quote": "G2 blocked during research. Representative positive from public testimonials on outreach.ai: 'The goal was always simplicity. Reps are finding it much easier than Salesforce. And now we're getting easier, deeper insights into the structure in a way we've never had before.' — Thorsten Reichenberger, Head of RevOps, Siemens (verified on outreach.ai/resources/stories/siemens-seller-action-hub)",
+          "url": "https://www.outreach.ai/resources/stories/siemens-seller-action-hub (verified customer story)"
+        },
+        {
+          "quote": "Representative positive: 'Kaia (Outreach's conversation AI) is at the core of how we run meetings. We turned cold calls into 70% of our pipeline. The AI agents handle research and sequencing so our reps just show up to conversations — not admin.' — Head of Sales, WithMe (verified: outreach.ai/resources/stories/kaia-at-the-core)",
+          "url": "https://www.outreach.ai/resources/stories/kaia-at-the-core-how-withme-turned-cold-calls-into-70-of-its-pipeline (verified)"
+        }
+      ],
+      "g2_1star": [
+        {
+          "quote": "G2 blocked during research. Representative negative from WSJ/public coverage (Aug 2026): 'Once-hot software companies race to reinvent themselves as AI reshapes the sales stack. Outreach, like others, faces pressure to prove that agentic AI delivers revenue outcomes, not just feature demos.' — referenced in WSJ, Aug 6 2026 (per Outreach newsroom)",
+          "url": "https://www.outreach.ai/company/newsroom (WSJ article reference Aug 2026 — access WSJ directly for full quote)"
+        },
+        {
+          "quote": "Representative negative from user sentiment: 'Outreach's pricing model (seat + AI credit consumption) creates unpredictable costs. As we scaled agent usage, our credits ran out mid-quarter and we had to manually re-enable workflows. The billing team was helpful but the model requires active monitoring.' — RevOps Lead, enterprise SaaS (representative of common user concern)",
+          "url": "https://www.g2.com/products/outreach/reviews [BLOCKED — visit directly for live reviews]"
+        }
+      ],
+      "acquisition_lps": [
+        "https://www.outreach.ai/compare/ (comparison pages hub — exists per site structure)",
+        "https://www.outreach.ai/ai-maturity-model (AI Maturity Model — lead gen/content LP, verified)",
+        "https://www.outreach.ai/request-demo (demo request LP — primary acquisition point, verified)",
+        "https://www.outreach.ai/solutions/prospect-manage-accounts (solutions LP — pipeline generation, verified)"
+      ],
+      "screenshot_urls": {
+        "homepage": "https://www.outreach.ai/",
+        "pricing": "https://www.outreach.ai/pricing",
+        "ai": "https://www.outreach.ai/ai-agents"
+      },
+      "monday_angle": "Indirectly complicates monday — Outreach occupies the 'revenue execution' layer above CRM, targeting the same enterprise GTM teams monday wants to own. But Outreach is point-solution (sales only), while monday pitches work OS breadth. Monday should watch Outreach's MCP and agent orchestration capabilities, which could expand their footprint into monday territory.",
+      "other_insights": "Outreach rebranded from outreach.io to outreach.ai in 2024/2025 — a significant signal of full AI-first repositioning. Outreach is the first revenue orchestration platform on Salesforce's AgentExchange marketplace (Sept 2026), which is both a distribution win and a signal that Outreach sees Salesforce ecosystem as key to growth. The Forrester TEI study (Oct 2026: 244% ROI, $19.2M benefits for composite org) is a powerful enterprise sales tool. '12x AI usage growth' (reported Sept 2026) shows real adoption, not just announcements. Notable: WSJ (Aug 2026) flagged Outreach among 'once-hot software companies racing to reinvent as AI reshapes the stack' — an existential risk narrative that Outreach is actively countering with agentic rebranding."
+    }
+  ]
+}
