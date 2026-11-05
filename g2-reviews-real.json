@@ -1,0 +1,313 @@
+{
+  "hubspot": {
+    "g2_slug": "hubspot-sales-hub",
+    "rating": "4.4",
+    "count": "14,386",
+    "source_url": "https://www.g2.com/products/hubspot-sales-hub/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Alakh M., Sales Operations Manager, E-Learning, Mid-Market",
+        "date": "2026-10-26",
+        "stars": "5",
+        "quote": "I love that I can quickly see the status of deals without having to follow up separately with each rep. Deal pipeline provides a quick snapshot of open pipeline, and activity tracking is helpful to see if we are moving things along on time."
+      },
+      {
+        "reviewer": "Nykko F., Executive Assistant, Small-Business",
+        "date": "2026-10-06",
+        "stars": "5",
+        "quote": "The sales process lives in the same system as everything else. Deal pipelines with clear stages and win probabilities show where every deal stands. Meeting links with round-robin make booking discovery calls easy."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Dannielle M., Marketing Manager, Small-Business",
+        "date": "2026-10-09",
+        "stars": "1.5",
+        "quote": "It hasn't solved any for us yet and truthfully developed more work and management. I believe this is due to the long learning curves with an extremely lean team, and combat of team members who try to implement the old CRM approach in HubSpot."
+      },
+      {
+        "reviewer": "Verified User in Hospital & Health Care, Small-Business",
+        "date": "2026-10-19",
+        "stars": "2",
+        "quote": "A bit clunky to configure/customize. Extremely slow to update / reload page — so I often end up clicking the wrong thing. Inability to customize to the extent that I'd want to. High pricing. Repeatedly logs out / disconnects from my Outlook."
+      }
+    ]
+  },
+  "salesforce": {
+    "g2_slug": "agentforce-sales-formerly-salesforce-sales-cloud",
+    "rating": "4.4",
+    "count": "27,587",
+    "source_url": "https://www.g2.com/products/agentforce-sales-formerly-salesforce-sales-cloud/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Sejal D., Marketing Executive, Mid-Market",
+        "date": "2026-10-29",
+        "stars": "3.5",
+        "quote": "I like how Salesforce Sales Cloud helps me to understand leads and customer interaction in one place. I can review lead details, check follow-up activities, and see which prospects are moving through the sales pipelines. It is useful for coordinating with the sales team."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Mario P., Business Development, Enterprise",
+        "date": "2026-08-07",
+        "stars": "2",
+        "quote": "Sequence/cadence building feels clunkier — less intuitive than Outreach's step builder, fewer branching/automation options. Weaker engagement analytics — harder to see open/click/reply performance at a glance. Not a purpose built application for sales outreach and it shows."
+      },
+      {
+        "reviewer": "Brian N., Enterprise",
+        "date": "2026-09-15",
+        "stars": "1.5",
+        "quote": "Time it takes to build the semantic layer is a real problem. I use Agentforce Sales to allow sales reps to self-serve data, but it's slow to get running."
+      }
+    ]
+  },
+  "pipedrive": {
+    "g2_slug": "pipedrive",
+    "rating": "4.3",
+    "count": "5,115",
+    "source_url": "https://www.g2.com/products/pipedrive/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Virat K., Business Development Executive, Mid-Market",
+        "date": "2026-10-27",
+        "stars": "5",
+        "quote": "What I like most about Pipedrive is its simple and user-friendly interface. The visual sales pipeline makes it easy to track leads, manage follow-ups, and see the current status of every deal. It helps keep sales activities organized and reduces the chances of missing important follow-ups."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Douglas S., President, Small-Business",
+        "date": "2026-10-08",
+        "stars": "1.5",
+        "quote": "The platform is BLOATED as is every Microsoft product. The automation is laughably over-complicated. The email editor is clunky at best. The problems they solve come at a far too high of a cost in terms of time and learning."
+      }
+    ]
+  },
+  "outreach": {
+    "g2_slug": "outreach",
+    "rating": "4.3",
+    "count": "3,676",
+    "source_url": "https://www.g2.com/products/outreach/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Casper P., Team Lead Business Development, Enterprise",
+        "date": "2026-09-22",
+        "stars": "5",
+        "quote": "Our Business development and Sales team globally use Outreach. We use it for all of our multi channel sequences. We also use Outreach for calling our prospects, which works very well. The dashboard and reporting functionality is also very detailed and easy to filter through."
+      },
+      {
+        "reviewer": "Andrea S., Account Executive, Enterprise",
+        "date": "2026-09-02",
+        "stars": "5",
+        "quote": "It helps me stay organized and consistent with my day-to-day prospecting and follow-ups. I can easily manage sequences, automate outreach, track engagement, and keep on top of my tasks. The visibility into prospect activity helps me prioritize who to follow up with and when."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "A.J. A., SMB & MM Sales Leader, Mid-Market",
+        "date": "2026-09-23",
+        "stars": "2",
+        "quote": "For me, it was primarily just the cost. For a large multinational organization, the cost was okay. But as you move into smaller headcount organizations, it was just too expensive."
+      },
+      {
+        "reviewer": "Owen J., Pipeline Program Manager, Small-Business",
+        "date": "2025-11-26",
+        "stars": "2",
+        "quote": "Insightful analytics, but UI needs work. The AI tools integration has streamlined workflow but the interface still needs improvement."
+      }
+    ]
+  },
+  "apollo": {
+    "g2_slug": "apollo-io",
+    "rating": "4.7",
+    "count": "9,857",
+    "source_url": "https://www.g2.com/products/apollo-io/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Elena M., Unified Business Communications Admin, Mid-Market",
+        "date": "2026-10-23",
+        "stars": "4.5",
+        "quote": "The feature I value most in Apollo.io is its centralized profile settings dashboard with user credit limits, CRM connection controls and granular outbound permissions. Managing user access, enrichment spend and prospect field mapping in one panel saves me roughly three hours each week."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Eric Martin B., Sales Executive",
+        "date": "2026-02-02",
+        "stars": "2",
+        "quote": "I'm really struggling with the enablement. I've been in and out of support for about a month now, and I still don't feel confident. Every time I have a question for support, it's a new person handling it, and I have to explain everything again."
+      },
+      {
+        "reviewer": "Verified User in Consulting, Small-Business",
+        "date": "2026-03-03",
+        "stars": "1.5",
+        "quote": "They have made so many changes that the tool no longer resembles what it used to be. There is too much AI everywhere, and it is not even accurate or useful—just AI nonsense."
+      }
+    ]
+  },
+  "gong": {
+    "g2_slug": "gong",
+    "rating": "4.7",
+    "count": "6,785",
+    "source_url": "https://www.g2.com/products/gong/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Danielle B., Principal CSM, Mid-Market",
+        "date": "2026-11-04",
+        "stars": "5",
+        "quote": "What I like best about Gong is that it gives us a shared view of what is happening across an account. I use it constantly for call recaps, action items, and account context. The Slack integration has also been really helpful — it posts conversation recaps into each customer channel, so sales, CS, and leadership are not losing track of customer conversations."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Joaquin R., TechOps Engineer, Mid-Market",
+        "date": "2026-04-30",
+        "stars": "1.5",
+        "quote": "It felt like the product stopped evolving. We were paying a lot for what was basically just call recording and a few dashboards, without much else to justify the cost."
+      },
+      {
+        "reviewer": "Verified User in Marketing and Advertising, Enterprise",
+        "date": "2025-06-09",
+        "stars": "1.5",
+        "quote": "Gong Engage is awful in every single way compared to Outreach. Would not recommend at all — flows are hard to get into, information is not readily available, sequencing is difficult to create and track, nothing is robust or scalable."
+      }
+    ]
+  },
+  "attio": {
+    "g2_slug": "attio",
+    "rating": "4.3",
+    "count": "600",
+    "source_url": "https://www.g2.com/products/attio/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Catarina C., Operational Specialist, Small-Business",
+        "date": "2026-08-26",
+        "stars": "5",
+        "quote": "I love the fact that Attio is so simple and straightforward. The interface is super clean. It's great that all the information is centralised, which helps me cross-check client details. The setup was easy and it feels like a better fit for us compared to HubSpot."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Peter H., Customer Understanding Advocate, Mid-Market",
+        "date": "2026-07-28",
+        "stars": "2",
+        "quote": "I'm not the biggest fan of Attio. I'm used to HubSpot and Salesforce, and Attio feels pretty clunky compared to those. Its search functionality seems pretty limited, and I sometimes just want to easily find a contact or company, but it feels like it's missing a lot of options."
+      },
+      {
+        "reviewer": "Verified User in Computer Software, Small-Business",
+        "date": "2026-07-22",
+        "stars": "1.5",
+        "quote": "Despite its hype, it's quite disappointing. I find myself trying to setup something slightly complex and the tool is just not able to handle it. Their email sequences, workflows, and reports features cannot handle the simplest edge case."
+      }
+    ]
+  },
+  "clay": {
+    "g2_slug": "clay-com-clay",
+    "rating": "4.6",
+    "count": "234",
+    "source_url": "https://www.g2.com/products/clay-com-clay/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Rajat S., Python Full Stack Developer, Small-Business",
+        "date": "2026-08-29",
+        "stars": "5",
+        "quote": "I like Clay because it saves me a lot of time. I can find people, check company information, and make personal messages in one place. I do not need to use many different tools. It helps me find better leads and makes my work easier."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Verified User in Financial Services, Mid-Market",
+        "date": "2026-05-05",
+        "stars": "2",
+        "quote": "The product itself is pretty good however quite expensive. Customer support is terrible. Good luck trying to talk to an actual human being and getting your problems resolved."
+      },
+      {
+        "reviewer": "Brigham B., Senior SDR, Mid-Market",
+        "date": "2025-12-16",
+        "stars": "1.5",
+        "quote": "It is not user friendly at all. It takes me so long to set up my tables in order to get the information I need."
+      }
+    ]
+  },
+  "zoho": {
+    "g2_slug": "zoho-crm",
+    "rating": "4.1",
+    "count": "2,959",
+    "source_url": "https://www.g2.com/products/zoho-crm/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Puneet S., Senior Analyst, Mid-Market",
+        "date": "2026-11-04",
+        "stars": "5",
+        "quote": "Its user-friendly interface, powerful automation features, and ability to manage customer relationships, leads, and sales pipelines in one place. It saves time, improves team productivity, and provides useful insights through customizable reports and dashboards."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Verified User in Computer Software, Small-Business",
+        "date": "2025-12-16",
+        "stars": "1.5",
+        "quote": "Unhelpful customer service. Expensive and inflexible pricing. Limited usefulness in the most basic pricing tier. We only still use it because of inertia. If it were not for the large investment of time and money to switch, we would not use Zoho CRM."
+      },
+      {
+        "reviewer": "Verified User in Consulting, Small-Business",
+        "date": "2024-03-19",
+        "stars": "1.5",
+        "quote": "UI is inconsistent across all apps, and terminology changes frequently. Customer support is abysmal and requires significant clarification. Most apps are not comprehensive and have multiple strange gaps in features."
+      }
+    ]
+  },
+  "monday-crm": {
+    "g2_slug": "monday-crm",
+    "rating": "4.5",
+    "count": "1,950",
+    "source_url": "https://www.g2.com/products/monday-crm/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Rica F., Delegate Events Assistant, Small-Business",
+        "date": "2026-11-04",
+        "stars": "4.5",
+        "quote": "What I like most about monday CRM is how easy it is to organise and track contacts, leads, and tasks in one place. It gives good visibility across the sales process, makes it easier to follow up with prospects, and helps keep the team aligned."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Chi G., Supply Chain Project Manager, Small-Business",
+        "date": "2026-10-12",
+        "stars": "2",
+        "quote": "monday CRM's user interface is easy to understand, but it lacks functions that make creating or modifying the dashboard easier. The automation feature feels simple and it's difficult to follow. Customizing it is challenging because it never fully provides what we want."
+      },
+      {
+        "reviewer": "Verified User in Wholesale, Small-Business",
+        "date": "2026-09-10",
+        "stars": "2",
+        "quote": "Feels 90% Finished: Limited Automations, Formula Gaps, and Email Restrictions."
+      }
+    ]
+  },
+  "11x": {
+    "not_found": true,
+    "note": "No G2 listing found — early-stage company with insufficient review volume",
+    "source_url": "https://www.g2.com/search?query=11x"
+  },
+  "artisan": {
+    "not_found": true,
+    "note": "No G2 listing found — early-stage company with insufficient review volume",
+    "source_url": "https://www.g2.com/search?query=artisan"
+  },
+  "rox": {
+    "not_found": true,
+    "note": "No G2 listing found — early-stage company with insufficient review volume",
+    "source_url": "https://www.g2.com/search?query=rox"
+  },
+  "day-ai": {
+    "not_found": true,
+    "note": "No G2 listing found — early-stage company with insufficient review volume",
+    "source_url": "https://www.g2.com/search?query=day-ai"
+  },
+  "reevo": {
+    "not_found": true,
+    "note": "No G2 listing found — early-stage company with insufficient review volume",
+    "source_url": "https://www.g2.com/search?query=reevo"
+  }
+}

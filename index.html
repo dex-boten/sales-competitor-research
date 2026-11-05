@@ -188,6 +188,17 @@
 .tc-row td, .ta-table td, .ta-table th { font-size:12px !important; padding:5px 8px !important; }
 .ucm2-table td, .ucm2-table th { font-size:12px !important; }
 .gran-table td, .gran-table th { font-size:11px !important; }
+
+/* ── G2 Review Boxes ── */
+.reviews-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px; }
+.review-box { padding:12px; border-radius:8px; font-size:13px; }
+.review-pos { background:#f0fdf4; border-left:3px solid #16a34a; }
+.review-neg { background:#fff5f5; border-left:3px solid #ef4444; }
+.review-quote { font-style:italic; color:#1e293b; margin:6px 0; line-height:1.5; }
+.review-meta { font-size:11px; color:#64748b; }
+.review-stars { font-size:12px; color:#f59e0b; }
+@media(max-width:700px){ .reviews-grid { grid-template-columns:1fr; } }
+
 </style>
 </head>
 <body>
@@ -919,14 +930,13 @@
 </div>
 
 <div class="info-card">
-  <div class="block-label">G2 Reviews</div>
+  <div class="block-label">G2 Reviews — <a href="https://www.g2.com/products/hubspot-sales-hub/reviews" target="_blank">View on G2 ↗</a></div>
   <div class="g2-rating-row">
     <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.4/5 · 14,383 reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/hubspot-sales-hub/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
+    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.4/5 · 14,386 reviews</span>
+    <span style="font-size:11px;color:#94a3b8">(verified from G2 · Nov 2026)</span>
   </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <div class="reviews-grid"><div class="review-box review-pos"><div class="review-stars">★ 5/5</div><p class="review-quote">"I love that I can quickly see the status of deals without having to follow up separately with each rep. Deal pipeline provides a quick snapshot of open pipeline, and activity tracking is helpful to see if we are moving t..."</p><div class="review-meta">Alakh M., Sales Operations Manager, E-Learning, Mid-Market · 2026-10-26</div></div><div class="review-box review-pos"><div class="review-stars">★ 5/5</div><p class="review-quote">"The sales process lives in the same system as everything else. Deal pipelines with clear stages and win probabilities show where every deal stands. Meeting links with round-robin make booking discovery calls easy."</p><div class="review-meta">Nykko F., Executive Assistant, Small-Business · 2026-10-06</div></div><div class="review-box review-neg"><div class="review-stars">★ 1.5/5</div><p class="review-quote">"It hasn't solved any for us yet and truthfully developed more work and management. I believe this is due to the long learning curves with an extremely lean team, and combat of team members who try to implement the old CR..."</p><div class="review-meta">Dannielle M., Marketing Manager, Small-Business · 2026-10-09</div></div><div class="review-box review-neg"><div class="review-stars">★ 2/5</div><p class="review-quote">"A bit clunky to configure/customize. Extremely slow to update / reload page — so I often end up clicking the wrong thing. Inability to customize to the extent that I'd want to. High pricing. Repeatedly logs out / disconn..."</p><div class="review-meta">Verified User in Hospital & Health Care, Small-Business · 2026-10-19</div></div></div>
 </div>
 
 <div class="info-card">
@@ -1112,14 +1122,13 @@
 </div>
 
 <div class="info-card">
-  <div class="block-label">G2 Reviews</div>
+  <div class="block-label">G2 Reviews — <a href="https://www.g2.com/products/agentforce-sales-formerly-salesforce-sales-cloud/reviews" target="_blank">View on G2 ↗</a></div>
   <div class="g2-rating-row">
     <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.3/5 · 9,500+ reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/agentforce-sales-formerly-salesforce-sales-cloud/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
+    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.4/5 · 27,587 reviews</span>
+    <span style="font-size:11px;color:#94a3b8">(verified from G2 · Nov 2026)</span>
   </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <div class="reviews-grid"><div class="review-box review-pos"><div class="review-stars">★ 3.5/5</div><p class="review-quote">"I like how Salesforce Sales Cloud helps me to understand leads and customer interaction in one place. I can review lead details, check follow-up activities, and see which prospects are moving through the sales pipelines...."</p><div class="review-meta">Sejal D., Marketing Executive, Mid-Market · 2026-10-29</div></div><div class="review-box review-neg"><div class="review-stars">★ 2/5</div><p class="review-quote">"Sequence/cadence building feels clunkier — less intuitive than Outreach's step builder, fewer branching/automation options. Weaker engagement analytics — harder to see open/click/reply performance at a glance. Not a purp..."</p><div class="review-meta">Mario P., Business Development, Enterprise · 2026-08-07</div></div><div class="review-box review-neg"><div class="review-stars">★ 1.5/5</div><p class="review-quote">"Time it takes to build the semantic layer is a real problem. I use Agentforce Sales to allow sales reps to self-serve data, but it's slow to get running."</p><div class="review-meta">Brian N., Enterprise · 2026-09-15</div></div></div>
 </div>
 
 <div class="info-card">
@@ -1296,14 +1305,13 @@
 </div>
 
 <div class="info-card">
-  <div class="block-label">G2 Reviews</div>
+  <div class="block-label">G2 Reviews — <a href="https://www.g2.com/products/pipedrive/reviews" target="_blank">View on G2 ↗</a></div>
   <div class="g2-rating-row">
     <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.3/5 · 6,000+ reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/pipedrive/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
+    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.3/5 · 5,115 reviews</span>
+    <span style="font-size:11px;color:#94a3b8">(verified from G2 · Nov 2026)</span>
   </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <div class="reviews-grid"><div class="review-box review-pos"><div class="review-stars">★ 5/5</div><p class="review-quote">"What I like most about Pipedrive is its simple and user-friendly interface. The visual sales pipeline makes it easy to track leads, manage follow-ups, and see the current status of every deal. It helps keep sales activit..."</p><div class="review-meta">Virat K., Business Development Executive, Mid-Market · 2026-10-27</div></div><div class="review-box review-neg"><div class="review-stars">★ 1.5/5</div><p class="review-quote">"The platform is BLOATED as is every Microsoft product. The automation is laughably over-complicated. The email editor is clunky at best. The problems they solve come at a far too high of a cost in terms of time and learn..."</p><div class="review-meta">Douglas S., President, Small-Business · 2026-10-08</div></div></div>
 </div>
 
 <div class="info-card">
@@ -1705,14 +1713,13 @@
 </div>
 
 <div class="info-card">
-  <div class="block-label">G2 Reviews</div>
+  <div class="block-label">G2 Reviews — <a href="https://www.g2.com/products/outreach/reviews" target="_blank">View on G2 ↗</a></div>
   <div class="g2-rating-row">
     <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.3/5 · 3,500+ reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/outreach/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
+    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.3/5 · 3,676 reviews</span>
+    <span style="font-size:11px;color:#94a3b8">(verified from G2 · Nov 2026)</span>
   </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <div class="reviews-grid"><div class="review-box review-pos"><div class="review-stars">★ 5/5</div><p class="review-quote">"Our Business development and Sales team globally use Outreach. We use it for all of our multi channel sequences. We also use Outreach for calling our prospects, which works very well. The dashboard and reporting function..."</p><div class="review-meta">Casper P., Team Lead Business Development, Enterprise · 2026-09-22</div></div><div class="review-box review-pos"><div class="review-stars">★ 5/5</div><p class="review-quote">"It helps me stay organized and consistent with my day-to-day prospecting and follow-ups. I can easily manage sequences, automate outreach, track engagement, and keep on top of my tasks. The visibility into prospect activ..."</p><div class="review-meta">Andrea S., Account Executive, Enterprise · 2026-09-02</div></div><div class="review-box review-neg"><div class="review-stars">★ 2/5</div><p class="review-quote">"For me, it was primarily just the cost. For a large multinational organization, the cost was okay. But as you move into smaller headcount organizations, it was just too expensive."</p><div class="review-meta">A.J. A., SMB & MM Sales Leader, Mid-Market · 2026-09-23</div></div><div class="review-box review-neg"><div class="review-stars">★ 2/5</div><p class="review-quote">"Insightful analytics, but UI needs work. The AI tools integration has streamlined workflow but the interface still needs improvement."</p><div class="review-meta">Owen J., Pipeline Program Manager, Small-Business · 2025-11-26</div></div></div>
 </div>
 
 <div class="info-card">
@@ -1880,14 +1887,13 @@
 </div>
 
 <div class="info-card">
-  <div class="block-label">G2 Reviews</div>
+  <div class="block-label">G2 Reviews — <a href="https://www.g2.com/products/attio/reviews" target="_blank">View on G2 ↗</a></div>
   <div class="g2-rating-row">
     <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.8/5 · 900+ reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/attio/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
+    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.3/5 · 600 reviews</span>
+    <span style="font-size:11px;color:#94a3b8">(verified from G2 · Nov 2026)</span>
   </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <div class="reviews-grid"><div class="review-box review-pos"><div class="review-stars">★ 5/5</div><p class="review-quote">"I love the fact that Attio is so simple and straightforward. The interface is super clean. It's great that all the information is centralised, which helps me cross-check client details. The setup was easy and it feels li..."</p><div class="review-meta">Catarina C., Operational Specialist, Small-Business · 2026-08-26</div></div><div class="review-box review-neg"><div class="review-stars">★ 2/5</div><p class="review-quote">"I'm not the biggest fan of Attio. I'm used to HubSpot and Salesforce, and Attio feels pretty clunky compared to those. Its search functionality seems pretty limited, and I sometimes just want to easily find a contact or ..."</p><div class="review-meta">Peter H., Customer Understanding Advocate, Mid-Market · 2026-07-28</div></div><div class="review-box review-neg"><div class="review-stars">★ 1.5/5</div><p class="review-quote">"Despite its hype, it's quite disappointing. I find myself trying to setup something slightly complex and the tool is just not able to handle it. Their email sequences, workflows, and reports features cannot handle the si..."</p><div class="review-meta">Verified User in Computer Software, Small-Business · 2026-07-22</div></div></div>
 </div>
 
 <div class="info-card">
@@ -2055,14 +2061,13 @@
 </div>
 
 <div class="info-card">
-  <div class="block-label">G2 Reviews</div>
+  <div class="block-label">G2 Reviews — <a href="https://www.g2.com/products/apollo-io/reviews" target="_blank">View on G2 ↗</a></div>
   <div class="g2-rating-row">
     <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.7/5 · 9,700+ reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/apollo-io/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
+    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.7/5 · 9,857 reviews</span>
+    <span style="font-size:11px;color:#94a3b8">(verified from G2 · Nov 2026)</span>
   </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <div class="reviews-grid"><div class="review-box review-pos"><div class="review-stars">★ 4.5/5</div><p class="review-quote">"The feature I value most in Apollo.io is its centralized profile settings dashboard with user credit limits, CRM connection controls and granular outbound permissions. Managing user access, enrichment spend and prospect ..."</p><div class="review-meta">Elena M., Unified Business Communications Admin, Mid-Market · 2026-10-23</div></div><div class="review-box review-neg"><div class="review-stars">★ 2/5</div><p class="review-quote">"I'm really struggling with the enablement. I've been in and out of support for about a month now, and I still don't feel confident. Every time I have a question for support, it's a new person handling it, and I have to e..."</p><div class="review-meta">Eric Martin B., Sales Executive · 2026-02-02</div></div><div class="review-box review-neg"><div class="review-stars">★ 1.5/5</div><p class="review-quote">"They have made so many changes that the tool no longer resembles what it used to be. There is too much AI everywhere, and it is not even accurate or useful—just AI nonsense."</p><div class="review-meta">Verified User in Consulting, Small-Business · 2026-03-03</div></div></div>
 </div>
 
 <div class="info-card">
@@ -2230,14 +2235,13 @@
 </div>
 
 <div class="info-card">
-  <div class="block-label">G2 Reviews</div>
+  <div class="block-label">G2 Reviews — <a href="https://www.g2.com/products/clay-com-clay/reviews" target="_blank">View on G2 ↗</a></div>
   <div class="g2-rating-row">
     <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.9/5 · 200+ reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/clay-2/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
+    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.6/5 · 234 reviews</span>
+    <span style="font-size:11px;color:#94a3b8">(verified from G2 · Nov 2026)</span>
   </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <div class="reviews-grid"><div class="review-box review-pos"><div class="review-stars">★ 5/5</div><p class="review-quote">"I like Clay because it saves me a lot of time. I can find people, check company information, and make personal messages in one place. I do not need to use many different tools. It helps me find better leads and makes my ..."</p><div class="review-meta">Rajat S., Python Full Stack Developer, Small-Business · 2026-08-29</div></div><div class="review-box review-neg"><div class="review-stars">★ 2/5</div><p class="review-quote">"The product itself is pretty good however quite expensive. Customer support is terrible. Good luck trying to talk to an actual human being and getting your problems resolved."</p><div class="review-meta">Verified User in Financial Services, Mid-Market · 2026-05-05</div></div><div class="review-box review-neg"><div class="review-stars">★ 1.5/5</div><p class="review-quote">"It is not user friendly at all. It takes me so long to set up my tables in order to get the information I need."</p><div class="review-meta">Brigham B., Senior SDR, Mid-Market · 2025-12-16</div></div></div>
 </div>
 
 <div class="info-card">
@@ -2414,14 +2418,13 @@
 </div>
 
 <div class="info-card">
-  <div class="block-label">G2 Reviews</div>
+  <div class="block-label">G2 Reviews — <a href="https://www.g2.com/products/gong/reviews" target="_blank">View on G2 ↗</a></div>
   <div class="g2-rating-row">
     <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.8/5 · 6,200+ reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/gong/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
+    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.7/5 · 6,785 reviews</span>
+    <span style="font-size:11px;color:#94a3b8">(verified from G2 · Nov 2026)</span>
   </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <div class="reviews-grid"><div class="review-box review-pos"><div class="review-stars">★ 5/5</div><p class="review-quote">"What I like best about Gong is that it gives us a shared view of what is happening across an account. I use it constantly for call recaps, action items, and account context. The Slack integration has also been really hel..."</p><div class="review-meta">Danielle B., Principal CSM, Mid-Market · 2026-11-04</div></div><div class="review-box review-neg"><div class="review-stars">★ 1.5/5</div><p class="review-quote">"It felt like the product stopped evolving. We were paying a lot for what was basically just call recording and a few dashboards, without much else to justify the cost."</p><div class="review-meta">Joaquin R., TechOps Engineer, Mid-Market · 2026-04-30</div></div><div class="review-box review-neg"><div class="review-stars">★ 1.5/5</div><p class="review-quote">"Gong Engage is awful in every single way compared to Outreach. Would not recommend at all — flows are hard to get into, information is not readily available, sequencing is difficult to create and track, nothing is robust..."</p><div class="review-meta">Verified User in Marketing and Advertising, Enterprise · 2025-06-09</div></div></div>
 </div>
 
 <div class="info-card">
@@ -2598,14 +2601,13 @@
 </div>
 
 <div class="info-card">
-  <div class="block-label">G2 Reviews</div>
+  <div class="block-label">G2 Reviews — <a href="https://www.g2.com/products/monday-crm/reviews" target="_blank">View on G2 ↗</a></div>
   <div class="g2-rating-row">
     <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.6/5 · 900+ reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/monday-sales-crm/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
+    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">4.5/5 · 1,950 reviews</span>
+    <span style="font-size:11px;color:#94a3b8">(verified from G2 · Nov 2026)</span>
   </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <div class="reviews-grid"><div class="review-box review-pos"><div class="review-stars">★ 4.5/5</div><p class="review-quote">"What I like most about monday CRM is how easy it is to organise and track contacts, leads, and tasks in one place. It gives good visibility across the sales process, makes it easier to follow up with prospects, and helps..."</p><div class="review-meta">Rica F., Delegate Events Assistant, Small-Business · 2026-11-04</div></div><div class="review-box review-neg"><div class="review-stars">★ 2/5</div><p class="review-quote">"monday CRM's user interface is easy to understand, but it lacks functions that make creating or modifying the dashboard easier. The automation feature feels simple and it's difficult to follow. Customizing it is challeng..."</p><div class="review-meta">Chi G., Supply Chain Project Manager, Small-Business · 2026-10-12</div></div><div class="review-box review-neg"><div class="review-stars">★ 2/5</div><p class="review-quote">"Feels 90% Finished: Limited Automations, Formula Gaps, and Email Restrictions."</p><div class="review-meta">Verified User in Wholesale, Small-Business · 2026-09-10</div></div></div>
 </div>
 
 <div class="info-card">
@@ -2754,13 +2756,7 @@
 
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
-  <div class="g2-rating-row">
-    <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">Early stage — limited G2 reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/11x/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
-  </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <p style="font-size:13px;color:#94a3b8;font-style:italic">No G2 listing found — early-stage company with insufficient review volume as of Nov 2026.</p>
 </div>
 
 <div class="info-card">
@@ -2900,13 +2896,7 @@
 
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
-  <div class="g2-rating-row">
-    <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">Early stage — limited G2 reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/artisan-co/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
-  </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <p style="font-size:13px;color:#94a3b8;font-style:italic">No G2 listing found — early-stage company with insufficient review volume as of Nov 2026.</p>
 </div>
 
 <div class="info-card">
@@ -3396,13 +3386,7 @@ id="reevo" class="comp-section">
 
 <div class="info-card">
   <div class="block-label">G2 Reviews</div>
-  <div class="g2-rating-row">
-    <span class="g2-badge">G2</span>
-    <span class="g2-rating-text" style="font-size:14px;font-weight:600;margin:0 8px">Early stage — limited G2 reviews</span> <span style="font-size:11px;color:#94a3b8">(from vendor site — not verified on G2)</span>
-    <a href="https://www.g2.com/products/reevo/reviews" target="_blank" rel="noopener" class="src-link">Read reviews on G2 ↗</a>
-  </div>
-  <p style="font-size:12px;color:#94a3b8;margin-top:6px;font-style:italic">Quotes not shown — visit G2 for verified reviews.</p>
-</div>
+  <p style="font-size:13px;color:#94a3b8;font-style:italic">No G2 listing found — early-stage company with insufficient review volume as of Nov 2026.</p>
 </div>
 
 <div class="info-card">
