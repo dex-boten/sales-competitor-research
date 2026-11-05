@@ -309,5 +309,39 @@
     "not_found": true,
     "note": "No G2 listing found — early-stage company with insufficient review volume",
     "source_url": "https://www.g2.com/search?query=reevo"
+  },
+  "smartsheet": {
+    "g2_slug": "smartsheet",
+    "rating": "4.4",
+    "count": "23,105",
+    "source_url": "https://www.g2.com/products/smartsheet/reviews",
+    "reviews_5star": [
+      {
+        "reviewer": "Mason D., Training Specialist, Enterprise",
+        "date": "2026-11-04",
+        "stars": "5",
+        "quote": "The ease of use is best. Friendly interface makes it nice to use and I like how it is applicable for so many scenarios. I don't run into bugs and there hasn't been any times that the software has made me truly frustrated. The updated UI is also a welcomed refresh."
+      },
+      {
+        "reviewer": "Peter P., Control Room Team Lead, Mid-Market",
+        "date": "2026-11-03",
+        "stars": "4.5",
+        "quote": "What I like most about Smartsheet is the flexibility. I can use it for operational tracking, planning, reporting and follow-up actions in one place. It is easy to share updates with the team, assign responsibilities and keep deadlines visible."
+      }
+    ],
+    "reviews_low": [
+      {
+        "reviewer": "Verified User in Utilities, Enterprise",
+        "date": "2026-10-21",
+        "stars": "1.5",
+        "quote": "When I sort a sheet, it sorts it for everyone who uses it. After I make an update to a field I have to click the save button. There should be automatically created forms to add, edit, and delete a record."
+      },
+      {
+        "reviewer": "Verified User in Construction, Mid-Market",
+        "date": "2026-06-09",
+        "stars": "1.5",
+        "quote": "The complete lack of native Right-to-Left (RTL) support creates a severe barrier for teams operating in languages like Hebrew or Arabic. Key capabilities that we pay for — Document Generation and PDF Exporting — frequently break because text rendering does not accommodate RTL."
+      }
+    ]
   }
 }

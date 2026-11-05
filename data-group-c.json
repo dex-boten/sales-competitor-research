@@ -493,6 +493,83 @@
       },
       "monday_angle": "Reevo is the most direct structural competitor to monday.com's sales CRM vision — both are building unified platforms to replace the Frankenstack, with AI at the core. Reevo has a head start on AI-native CRM architecture, deal intelligence, and outbound, but lacks monday.com's brand, existing user base, and PM integrations.",
       "other_insights": "Founded April 2024. Founders all have DoorDash backgrounds: David Zhu (CEO — ex-Head of Engineering at DoorDash, scaled from $700M to $75B market cap at IPO), Cindy Hao (Co-Founder — ex-Atomic/OpenStore), Clement Fang (Co-Founder — ex-DoorDash platform engineering), Curtis [Anh] (Co-Founder, also ex-DoorDash). This is an execution-credibility founding team: they built at massive scale before. $80M raised from Khosla Ventures + Kleiner Perkins — top-tier VCs signal conviction in the category. Valuation ~$500M. Blog strategy is aggressively SEO-focused (comparison articles vs HubSpot, Salesforce, ZoomInfo, etc.) to capture bottom-of-funnel traffic from competitors' existing users. SaaStr Annual 2026 talk: 'How Reevo Hit Its Number With Half the Reps' — signals they're proving unit economics with existing customers. GTMnow podcast 'Inside Reevo's $80M Bet to Kill the $10B Frankenstein Stack' is the best overview of their thesis."
+    },
+    {
+      "id": "smartsheet",
+      "name": "Smartsheet",
+      "tagline": "Enterprise work management platform with AI agents",
+      "homepage_url": "https://www.smartsheet.com",
+      "phase": "Public",
+      "funding": "Public (NYSE: SMAR) | ARR $1.3B (2026, +11% YoY) | Market cap ~$2.0B",
+      "funding_source": "https://www.arr.club/smartsheet",
+      "h1": "Where people and AI get work done, together",
+      "h2": "One home for every kind of work.",
+      "h1_h2_source": "https://www.smartsheet.com",
+      "value_prop": "Work management platform for enterprise teams — not a CRM, but positions two sales plays: (1) Smartsheet CRM via configurable templates, (2) Smartsheet for Sales teams (pipeline tracking, territory management, deal reviews as structured grids + automation).",
+      "promise": "Connect strategy to execution with AI that knows your work, acts on it, and delivers real-time intelligence across any tool your team uses.",
+      "motion": "both",
+      "motion_detail": "PLG via free trial (Pro $9/m) + SLG for enterprise. Free trial prominent CTAs; enterprise demo for Advanced Work Management. Business carries the motion weight.",
+      "gtm": "Top-down enterprise (IT/ops buyers) + bottoms-up teams. Partner network for implementations. Content/education-led (Smartsheet University, templates gallery). Event: ENGAGE annual conference.",
+      "icp": "Enterprise (1,000+ employees); cross-functional teams (PMO, ops, sales ops, marketing). NOT typical sales reps — buyers are IT/ops/PMO.",
+      "persona": "VP Operations, PMO Director, Sales Ops Manager, RevOps. NOT AEs or SDRs primarily.",
+      "pricing_tiers": "Pro $9/member/mo · Business $19/member/mo · Enterprise custom · Advanced Work Management custom (all billed annually)",
+      "pricing_model": "Per member (unlimited contributors/guests). Business tier includes AI tools connectivity.",
+      "ai_pricing": "Conversational AI features included in Pro+. 'Connect to external AI tools' (MCP) in Business+. AI Agents and Smart Columns available in Business+.",
+      "free_tier": "Free trial; no permanent free tier listed",
+      "pricing_source": "https://www.smartsheet.com/pricing",
+      "ai_framing": "Agentic AI for enterprise work execution — 'AI that knows your work, acts on it'",
+      "agentic_use_cases": [
+        {
+          "name": "Smart Assist",
+          "status": "shipped",
+          "jtbd": [
+            "Answers questions about project status with full work context",
+            "Flags risks and recommends next steps in-product"
+          ],
+          "integrations": "Native Smartsheet"
+        },
+        {
+          "name": "MCP Server / AI Connectors",
+          "status": "shipped",
+          "jtbd": [
+            "Connects live Smartsheet data to Claude, Copilot, Gemini, ChatGPT, Amazon Q",
+            "Enables real-time project queries from external AI tools"
+          ],
+          "integrations": "Anthropic Claude, Microsoft Copilot, Google Gemini, OpenAI ChatGPT, Amazon Q"
+        },
+        {
+          "name": "AI Agents ('Agents that get work done')",
+          "status": "shipped",
+          "jtbd": [
+            "Builds project workspaces, portfolio reports, and dashboards from live data on request",
+            "Executes actions (enrich rows, schedule updates) in conversation"
+          ],
+          "integrations": "Smartsheet + connected AI tools via MCP"
+        },
+        {
+          "name": "Smart Columns",
+          "status": "shipped",
+          "jtbd": [
+            "AI enriches sheet data at scale — summarize, translate, sentiment analysis, extraction",
+            "Keeps sheets analysis-ready without manual parsing"
+          ],
+          "integrations": "Native Smartsheet"
+        },
+        {
+          "name": "vsActual (AI-native work intelligence)",
+          "status": "shipped",
+          "jtbd": [
+            "Live view of whether work across the company is on track vs. strategy",
+            "Connects cross-company data for executive-level portfolio intelligence"
+          ],
+          "integrations": "Smartsheet + enterprise data sources"
+        }
+      ],
+      "offering": "Horizontal work management platform (not a CRM). Two sales-relevant plays: 1) Smartsheet CRM — template-based lead/account/contact management. 2) Smartsheet for Sales — pipeline views, territory management, deal review boards, quota tracking — all as configurable Smartsheet grids with automation.",
+      "ai_talk": "Tone: enterprise-responsible. Key claims: 'AI that learns your pace, patterns, risks.' Anti-positioning: 'Most AI tools treat every session as a blank slate — Smartsheet AI doesn't.' Trust messaging: permissions-aware agents, works within existing governance. No claim of autonomous SDR or CRM replacement.",
+      "integrations": "Salesforce, HubSpot, Jira, Microsoft 365, Google Workspace, Slack, Teams; Zapier; MCP to Claude/Copilot/Gemini/ChatGPT/Amazon Q",
+      "monday_angle": "Directly comparable in horizontal work management + AI agents narrative. Smartsheet targets enterprise PMO/ops buyers; monday AI Workspace targets both ops and sales teams directly. Smartsheet's MCP play is a credible threat — same narrative (bring AI to your existing tools) but deeper enterprise integration story.",
+      "other_insights": "Acquired by Blackstone in 2024 for ~$8.4B. Despite going private, retained NYSE listing and is functionally public-company grade. ENGAGE 2026 launched vsActual and AI agents — signals full AI platform pivot, not just features. No dedicated AI SDR or autonomous prospecting play — biggest gap vs. 11x/Artisan/Reevo."
     }
   ],
   "light_check": [
